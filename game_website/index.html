@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+	    <meta charset="utf-8">
+	    <title>Route</title>
+	    <link rel="stylesheet" href = "index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class = "main-container">
+            <div class = "header">
+                <h1>
+                    <em class = "puzzle-title">Route</em>
+                    <span id = "current-date" class = "game-date"></span>
+                </h1> 
+            </div>
+
+            <div class = "content">
+                <div class="left-container">
+                    <input type="text" id="input-bar" placeholder="Click or Type">
+                    <div class="keyboard">
+                        <div class="row">
+                            <div class="key">A</div>
+                            <div class="key">B</div>
+                            <div class="key">C</div>
+                            <div class="key">D</div>
+                            <div class="key">E</div>
+                            <div class="key">F</div>
+                            <div class="key">G</div>
+                            <div class="key">H</div>
+                            <div class="key">I</div>
+                            <div class="key">J</div>
+                        </div>
+                        <div class="row">
+                            <div class="key">K</div>
+                            <div class="key">L</div>
+                            <div class="key">M</div>
+                            <div class="key">N</div>
+                            <div class="key">O</div>
+                            <div class="key">P</div>
+                            <div class="key">Q</div>
+                            <div class="key">R</div>
+                        </div>
+                        <div class="row">
+                            <button class="key">S</button>
+                            <div class="key">T</div>
+                            <div class="key">U</div>
+                            <div class="key">V</div>
+                            <div class="key">W</div>
+                            <div class="key">X</div>
+                            <div class="key">Y</div>
+                            <div class="key">Z</div>
+                        </div>
+                        <div class="row">
+                            <div class="key">Delete</div>
+                            <div class="key">Enter</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="right-container-title">
+                        <h2 class = "right-title">Word List: </h2>
+                        <span>Guess Count: </span>
+                    </div>
+                    <div class="word-container">
+                        <div class = "inner-word-container">
+                            <span id="given-word">Beginning: </span><span>Cold</span>
+                            <ul id="word-list">
+                                <!-- Word list will be populated here -->
+                                <div id = "guess-container"></div>
+                            </ul>
+                            <span id ="end-word">Ending: </span><span>Path</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "footer">
+                <p>&copy; 2025 Route Game. All rights reserved.</p>
+            </div>
+        </div>
+        <script src = "game.js" defer></script>
+    </body>
+    
+</html>
