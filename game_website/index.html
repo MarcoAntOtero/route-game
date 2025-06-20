@@ -11,16 +11,41 @@
 
     <body>
         <div class = "main-container">
-            <div class = "header">
+            <div class = "header-top">
                 <h1>
                     <em class = "puzzle-title">Route</em>
                     <span id = "current-date" class = "game-date"></span>
-                </h1> 
+                </h1>
             </div>
-
+            <div class="toolbar">
+                <div class="toolbar-buttons-container">
+                    <button class = "toolbar-buttons" id = "hint-but">Hint</button>
+                    <button class = "toolbar-buttons" id ="how-to-but">How To play</button>
+                    <button class = "toolbar-buttons">Dark Mode</button>
+                </div>
+            </div>
             <div class = "content">
                 <div class="left-container">
-                    <input type="text" id="input-bar" placeholder="Click or Type">
+                    <div class="input-wrapper">
+  <input type="text" id="input-bar" placeholder="" autocomplete="off" maxlength="10">
+  <div id="fake-placeholder">
+    <span style="color:#f26522">C</span>
+    <span style="color:#1e5494">l</span>
+    <span style="color:#ed1c24">i</span>
+    <span style="color:#25969c">c</span>
+    <span style="color:#fad810">k</span>
+    <span class="space"> </span>
+    <span style="color:#f26522">o</span>
+    <span style="color:#1e5494">r</span>
+    <span class="space"> </span>
+    <span style="color:#ed1c24">T</span>
+    <span style="color:#25969c">y</span>
+    <span style="color:#fad810">p</span>
+    <span style="color:#1e5494">e</span>
+</div>
+</div>
+
+
                     <div class="keyboard">
                         <div class="row">
                             <div class="key">A</div>
@@ -45,7 +70,7 @@
                             <div class="key">R</div>
                         </div>
                         <div class="row">
-                            <button class="key">S</button>
+                            <div class="key">S</div>
                             <div class="key">T</div>
                             <div class="key">U</div>
                             <div class="key">V</div>
@@ -55,25 +80,47 @@
                             <div class="key">Z</div>
                         </div>
                         <div class="row">
-                            <div class="key">Delete</div>
-                            <div class="key">Enter</div>
+                            <div id = "delete-key" class="delete-key">Delete</div>
+                            <div id = "enter-key" class="enter-key">Enter</div>
                         </div>
+                    </div>
+                </div>
+                <div id="modal-overlay" class="modal-overlay" hidden>
+                    <div class="modal">
+                        <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+                        <div id="modal-content"></div>
                     </div>
                 </div>
                 <div class="right-container">
                     <div class="right-container-title">
                         <h2 class = "right-title">Word List: </h2>
-                        <span>Guess Count: </span>
+                        <div class = "guess-count-container">
+                            <div>
+                                <span>Guess Count: </span>
+                                <span id = "guess-count"></span>
+                            </div>
+                            <div>
+                                <span>Target Guess: </span><span id ="target-guess-count"></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="word-container">
                         <div class = "inner-word-container">
-                            <span id="given-word">Beginning: </span><span>Cold</span>
-                            <ul id="word-list">
+                            <div class="inner-word-container-top">
+                                <span id="start-word-beginning" class ="start-word-beginning">Beginning: </span><span class= "start-word"></span>
+                            </div>
+                            <div id="word-list" class="word-list">
                                 <!-- Word list will be populated here -->
-                                <div id = "guess-container"></div>
-                            </ul>
-                            <span id ="end-word">Ending: </span><span>Path</span>
+                                <div id = "guess-container" class= "guess-container"></div>
+                            </div>
+                            <div class="inner-word-container-bottom">
+                                <span id ="end-word-ending" class="end-word-ending">Ending: </span><span class = "end-word"></span>
+                            </div>
                         </div>
+                    </div>
+                    <div class = "message-container" id ="message-container">
+                        <p id = "message"></p>
+                        <a id = "message-link" target="_blank">Visit Site Here</a>
                     </div>
                 </div>
             </div>

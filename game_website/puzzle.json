@@ -1,0 +1,17 @@
+{
+  "2025-06-20": {
+    "start_word": "warm",
+    "end_word": "road",
+    "clue":"Test hint",
+    "message":"The New Mexico Department of Transportation is investing in road safety and modernization, including projects to improve rural highways and reduce traffic fatalities. Learn more about how they're working to build safer, more connected communities across the state.",
+    "link":"https://www.dot.nm.gov/",
+    "target_guess" : "6"
+  },
+  "2025-06-21": {
+    "start_word": "lamp",
+    "end_word": "desk",
+    "clue":"",
+    "message":"",
+    "link":"https://www.dot.nm.gov/"
+  }
+}
