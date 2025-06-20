@@ -294,22 +294,7 @@ html, body {
     border-radius: 5px;
 }
 
-/* =========================
-   Tiles
-========================= */
-.tile {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    line-height: 1.5em;
-    margin: 0 4px;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    border-radius: 4px;
-    color: white;
-}
-
+/*For how to play screen*/
 .green {
     background-color: #25969c;
     padding: 1px 4px;
