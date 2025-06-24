@@ -1,3 +1,4 @@
+// https://scrabguys.home.blog/4lw/
 const fs = require("fs");
 const path = require("path");
 

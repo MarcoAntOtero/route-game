@@ -69,7 +69,7 @@ async function init() {
 // ==== LOADERS ====
 // Load dictionary.json (External Files)
 async function loadDictionary() {
-  const response = await fetch("dictionary.json");
+  const response = await fetch("newDictionary.json");
   if (!response.ok) throw new Error("Failed to load dictionary.");
   return await response.json();
 }

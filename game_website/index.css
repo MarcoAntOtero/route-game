@@ -53,8 +53,8 @@ html, body {
 .toolbar-buttons-container {
     display: flex;
     justify-content: space-evenly;
-    width: 40%;
-    margin-right:130px;
+    width: 500px;
+    margin-right:22%;
 }
 
 .toolbar-buttons {
