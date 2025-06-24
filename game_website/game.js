@@ -46,6 +46,8 @@ datePlace.textContent = today.toLocaleDateString("en-US", {
   day: "numeric",
 });
 
+//For shake animation
+let continueShake = true;
 // Main initializer
 init();
 
@@ -157,17 +159,20 @@ function setupEventListeners() {
       <h2>How to Play</h2>
       <ol>
         <li>Guess a <strong>4-letter word</strong> by typing or clicking letters.</li>
+        <li>Change exactly <strong>one</strong> letter at each guess.
+        Each transformation must result in a <strong>valid</strong> word.</li>
         <li>Press <strong>Enter</strong> to submit your guess.</li>
-        <li><span class="green">Green</span> means the letter is in the correct spot
-        </li>
-        <li>You have <strong>6 attempts</strong> to guess correctly.</li>
-        <li>If you win early, 🎉 you win! Otherwise, the word is revealed at the end.</li>
+        <li><span class="green">Green</span> means the letter is in the correct spot</li>
+        <li>Your target guess is <strong>${GameState.targetGuess}</strong> to get to the end word correctly.</li>
       </ol>
     `);
   });
 
   hintBut.addEventListener("click", () => {
-    showModal(GameState.hint);
+    showModal(`
+      <h2>Hint</h2>
+<p>From <strong>${GameState.currentWord}</strong>, try to get to <strong>${GameState.hint}</strong>.</p>
+    `);
   });
 }
 
@@ -191,27 +196,30 @@ function handleGuess() {
   const guessEl = document.createElement("div");
   guessEl.className = "guess-word";
 
+  //Add span to each letter
   for (let char of userInput) {
     const span = document.createElement("span");
     span.textContent = char;
     guessEl.appendChild(span);
   }
 
+  //Add it to container
   guessContainer.appendChild(guessEl);
   inputBar.value = "";//resest input bar
 
   // Change background color of correct letters
   applyFeedback(userInput, guessEl);
 
-  //
-  if (GameState.guessCount >= GameState.targetGuess) {
-  shouldShakeHint = true;
-  animateHintBut();
-}
+  // Add shake animation to hint button
+  if (continueShake && GameState.guessCount > GameState.targetGuess) {
+    shouldShakeHint = true;
+    loopHintBut();
+    continueShake = false;
+  }
 
   // Win condition
   if (userInput === GameState.endWord) {
-    displayWinMessage(GameState.guessCount);
+    displayWinMessage(GameState.guessCount,GameState.targetGuess);
     shouldShakeHint = false;
     inputBar.disabled = true;
     messageAppears();
@@ -273,11 +281,16 @@ function applyFeedback(guess, guessEl) {
 }
 
 // Display win message under guesses
-function displayWinMessage(guessCount) {
-  const msg = document.createElement("div");
-  msg.className = "win-message";
-  msg.textContent = `🎉 You solved it in ${guessCount} move${guessCount === 1 ? "" : "s"}!`;
-  guessContainer.appendChild(msg);
+function displayWinMessage(guessCount,targetGuess) {
+  const winMessageEl = document.createElement("div");
+  let winMessage = '';
+  winMessageEl.className = "win-message";
+  if(guessCount <= targetGuess){
+    winMessage = winMessage = `🎉 Amazing! You solved it in ${guessCount} move${guessCount !== 1 ? 's' : ''}, which meets the target of ${targetGuess} moves!`;
+  }
+  else{winMessage = `Nice try! You solved it in ${guessCount} moves, but missed the target of ${targetGuess}. Try again tomorrow!`;}
+  winMessageEl.textContent = winMessage;
+  guessContainer.appendChild(winMessageEl);
 }
 
 // Reveal message box and animation after win
@@ -293,28 +306,19 @@ function animateGuessReveal() {
   });
 }
 
-let shouldShakeHint = false;
 function animateHintBut() {
-  if (!shouldShakeHint) return;
-
-  // Restart animation
   hintBut.classList.remove("shake-animation");
-  void hintBut.offsetWidth; // force reflow
+  void hintBut.offsetWidth;
   hintBut.classList.add("shake-animation");
+}
 
-  // Wait for animation to finish, then optionally loop
-  hintBut.addEventListener(
-    "animationend",
-    () => {
-      hintBut.classList.remove("shake-animation");
+function loopHintBut() {
+  animateHintBut();
 
-      // Wait a short delay before next shake (optional)
-      if (shouldShakeHint) {
-        setTimeout(animateHintBut, 5000); // 5000ms delay before next shake
-      }
-    },
-    { once: true }
-  );
+  hintBut.addEventListener("animationend", () => {
+    hintBut.classList.remove("shake-animation");
+    if (shouldShakeHint) setTimeout(loopHintBut, 5000);
+  }, { once: true });
 }
 
 // ==== MODAL ====
@@ -333,3 +337,4 @@ function hideModal() {
 function alertMessage(msg) {
   showModal(`<p>${msg}</p>`);
 }
+// rail buss safe sign gate crew snow wild mile

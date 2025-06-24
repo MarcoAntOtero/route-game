@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Load words from a text file (one word per line)
-const words = fs.readFileSync(path.join(__dirname, "4-letter-words-processed-new.txt"), "utf-8")
+const words = fs.readFileSync(path.join(__dirname, "words_lines.txt"), "utf-8")
   .split("\n")//seperated by newline each word
   .map(w => w.trim().toLowerCase())//get just the word trim empty space
   .filter(w => /^[a-z]+$/.test(w)); // Filter out empty lines or invalid words
@@ -29,7 +29,7 @@ for (let word of words) {
 
 // Save as JSON
 fs.writeFileSync(
-  path.join(__dirname, "dictionary.json"),
+  path.join(__dirname, "newDictionary.json"),
   JSON.stringify(trie, null, 2),
   "utf-8"
 );
