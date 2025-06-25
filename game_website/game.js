@@ -7,6 +7,7 @@ const GameState = {
   dictionaryTrie: null,    // Holds the loaded dictionary in trie form
   hint: "",
   targetGuess: 0,
+  maxGuess: 0,
 };
 
 // ==== DOM ELEMENTS ====
@@ -102,6 +103,7 @@ function setupPuzzle(puzzle) {
   GameState.guessCount = 0;
   GameState.hint = hint;
   GameState.targetGuess = target_guess;
+  GameState.maxGuess = (GameState.targetGuess * 2);
 }
 
 // ==== EVENT LISTENERS ====
@@ -134,13 +136,14 @@ function setupEventListeners() {
 
   deleteKey.addEventListener("click", () => {
     // Delete from input bar
+    if (inputBar.disabled) return; // Don't add letters if input is disabled
     inputBar.value = inputBar.value.slice(0, -1);
   });
 
   keys.forEach((key) => {
     key.addEventListener("click", () => {
+      if (inputBar.disabled) return; // Don't add letters if input is disabled
       inputBar.value += key.textContent.toLowerCase();
-
       inputBar.dispatchEvent(new Event("input", { bubbles: true }));
     });
   });
@@ -179,6 +182,7 @@ function setupEventListeners() {
 // ==== GAME LOGIC ====
 // Add a guess to the game board
 function handleGuess() {
+  if (inputBar.disabled) return; // Don't add letters if input is disabled
   const userInput = inputBar.value.trim().toLowerCase();
   const [isValid, errorMsg] = isValidGuess(userInput);
 
@@ -186,7 +190,12 @@ function handleGuess() {
     alertMessage(errorMsg);
     return;
   }
-
+  if(GameState.guessCount >= GameState.maxGuess)
+  {
+    alertMessage("Maximum Number of Guesses Reached, You Lose");
+    inputBar.disabled = true;
+    return;
+  }
   // Update count and what current word
   GameState.guessCount++;
   document.getElementById("guess-count").textContent = GameState.guessCount;
