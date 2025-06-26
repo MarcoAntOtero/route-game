@@ -1,78 +1,80 @@
 /* =========================
    Base Styles
 ========================= */
-html, body {
-    height: 100%;
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* easier sizing across devices */ /* :contentReference[oaicite:6]{index=6} */
 }
 
+html {
+  font-size: 62.5%; /* 1rem = 10px */ /* :contentReference[oaicite:7]{index=7} */
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.6rem; /* 16px base */
+  line-height: 1.5;
+  height: 100%;
+}
 .main-container {
-    font-family: "Montserrat", sans-serif;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* =========================
    Header
 ========================= */
 .header-top {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 65%;
-    flex: 0 1 auto;
-    flex-wrap: nowrap; /* Prevents wrapping */
-    gap: 40px;
-    white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .puzzle-title {
-    font-size: 32px;
-    margin-right: 20px;
+  font-size: 3.5rem;
+  margin-right: 1rem;
 }
 
 .game-date {
-    font-size: 24px;
-    font-weight: 300;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 /* =========================
    Toolbar
 ========================= */
 .toolbar {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 2em;
-    padding: 10px 15px;
-    margin: 0 -15px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2em;
+  padding: 1.5rem 1rem;
 }
 
 .toolbar-buttons-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 500px;
-    margin-right:22%;
+  display: flex;
+  gap: 2rem;
 }
 
 .toolbar-buttons {
-    color: black;
-    border: 1px dotted black;
-    background-color: white;
-    padding: 6px 12px;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 44px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 125px;
+  border: 1px dotted black;
+  background-color: white;
+  padding: 0.6rem 1.2rem;  
+  font-size: 1.6rem;
+  border-radius: 4.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 12.5rem;
 }
 
 .toolbar-buttons:hover {
-    color: white;
-    background-color: #ed1c24;
+  color: white;
+  background-color: #ed1c24;
 }
 
 .shake-animation{
@@ -96,138 +98,121 @@ html, body {
 ========================= */
 .content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: auto;
     flex: 1 1 auto;
 }
 
 /* ===== Left Container ===== */
 .left-container {
-    flex: 1;
-    max-width: 500px;
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
+  flex: 1;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
 }
 
 /* Input Bar */
 .input-wrapper {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 47%;
+  width: 51%;
 }
 
 #input-bar {
-  text-align: left;
-  font-size: 30px;
-  color: black;
+  font-size: 3rem;
   border: none;
   outline: none;
   width:100%;
-  padding: 6px;
-  margin-bottom: 30px;
+  padding: 0.6rem;
+  margin-bottom: 3rem;
   position: relative;
 }
 
 #fake-placeholder {
   position: absolute;
-  left: 5px;
-  top: 5px;
+  left: 0.5rem;
+  top: 0rem;
   pointer-events: none;
-  font-size: 30px;
-  font-family: inherit;
+  font-size: 3rem;
   white-space: nowrap;
-  width:auto;
   font-weight: 500;
   letter-spacing: -2px; 
 }
 #fake-placeholder span.space {
   display: inline-block;
-  width: 0px; /* Adjust for more space between words */
+  width: 0rem; /* Adjust for more space between words */
 }
 
 /* Keyboard */
 .keyboard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 30%;
-    width: auto;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  gap: 1rem;
 }
 
 .row {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .key,
 .enter-key,
 .delete-key {
-    background-color: lightgray;
-    font-size: 1.2em;
-    font-weight: bold;
-    border: none;
-    padding: 1px 12px;
-    height: 45px;
-    border-radius: 4px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s ease, transform 0.05s ease;;
+  background-color: lightgray;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.1rem 1.2rem;
+  height: 4.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.05s ease;;
 }
 
 .key:hover,
 .enter-key:hover,
 .delete-key:hover {
-    color: white;
-    background-color: #2f639e;
+  color: white;
+  background-color: #2f639e;
 }
 
 .key:active,
 .enter-key:active,
 .delete-key:active {
-    background-color: #f26522;
-    transform: scale(0.9);
+  background-color: #fad810;
+  transform: scale(0.9);
 }
 
 /* ===== Right Container ===== */
 .right-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
-    flex: 1;
-    max-width: 500px;
-    height: auto;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+  flex: 1;
+  max-width: 50rem;
 }
 
 .right-container-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
 }
 
 .guess-count-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    height:auto;
-    width: 175px;
-    letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  height:auto;
+  width: 17.5rem;
+  letter-spacing: 0.1rem;
 }
 .target-guess-container,
 .inner-guess-count-container{
@@ -239,116 +224,109 @@ html, body {
 
 /* Word Area */
 .word-container {
-    border: 1px solid lightgray;
-    flex: 1;
-    max-width: 600px;
-    border-radius: 7px;
-    height: auto;
+  border: 1px solid lightgray;
+  flex: 1;
+  border-radius: 0.7rem;
 }
 
 .inner-word-container {
-    margin: 20px;
-    font-size: 20px;
+  margin: 2rem;
+  font-size: 2rem;
 }
 
 .guess-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
 }
 
 .inner-word-container-top,
 .inner-word-container-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .inner-word-container-top{
-    padding-bottom:20px;
+  padding-bottom:2rem;
 }
 .inner-word-container-bottom{
-    padding-top:20px;
+  padding-top:2rem;
 }
 
 .start-word-beginning,
 .end-word-ending {
-    min-width: 150px;
-    width: 33%;
+  min-width: 15rem;
+  width: 33%;
 }
 
 .start-word,
 .end-word {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    flex-grow: 1;
-    letter-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-grow: 1;
+  letter-spacing: 2rem;
 }
 
 .guess-word {
-    text-align: center;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    
-    width:auto;
-    margin-left: 130px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-left: 13rem;
 }
 
 .guess-word span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2em;
-    height: 2em;
-    text-transform: uppercase;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
 }
 
 /*For how to play screen*/
 .green {
-    background-color: #25969c;
-    padding: 1px 4px;
-    margin: 0;
-    width: auto;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    border-radius: 4px;
-    color: white;
+  background-color: #25969c;
+  padding: 0.1rem 0.4rem;
+  margin: 0;
+  border-radius: 0.4rem;
+  color:white;
+  font-weight: 500;
 }
 
 /* =========================
    Modal Styles
 ========================= */
 .modal-overlay {
-    position: fixed;
-    inset: 0;
-    backdrop-filter: blur(10px);
-    display: none;
-    align-items: center;
-    justify-content: center;
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(1rem);
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal {
-    background: white;
-    padding: 4%;
-    border-radius: 8px;
-    max-width: 600px;
-    width: 70%;
-    position: relative;
-    box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
+  background: white;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  max-width: 60rem;
+  width: 70%;
+  position: relative;
+  box-shadow: 0 0 1rem 0.3rem rgba(0,0,0,0.2);
 }
 
 .modal-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    border: none;
-    background: transparent;
-    font-size: 1.5em;
-    cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  background: transparent;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 
 
@@ -356,15 +334,15 @@ html, body {
    Messages
 ========================= */
 .message-container {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.5px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.05rem;
 }
 
 /* =========================
@@ -397,10 +375,10 @@ html, body {
     flex: 0 1 auto;
   }
   .puzzle-title{
-    font-size: 28px;
+    font-size: 2.8rem;
   }
   .game-date{
-    font-size: 20px;
+    font-size: 2rem;
   }
   .content {
     flex-direction: column;
@@ -410,25 +388,25 @@ html, body {
 
   .left-container{
     max-width: none;
-    margin: 30px 0;
+    margin: 3rem 0;
     width: 90%;
   }
   .right-container{
-    margin: 40px auto;
+    margin: 4rem auto;
     width: 100%;
     max-width: none;
   }
   .word-container{
-    margin: 10px auto;
+    margin: 1rem auto;
     width: 80%;
   }
   .toolbar-buttons-container {
     width: 100%;
-    gap: 10px;
+    gap: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0px;
+    margin:0;
   }
 
   .toolbar-buttons {
@@ -445,19 +423,19 @@ html, body {
   }
 
   .guess-word {
-    width:56%;
+    width:53%;
     justify-content: flex-end;
-}
+  }
 
-.guess-word span {
+  .guess-word span {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 2em;
     height: 2em;
     text-transform: uppercase;
-    border-radius: 5px;
-}
+    border-radius: 0.5rem;
+  }
 
   .keyboard {
     gap: 6px;
@@ -472,28 +450,28 @@ html, body {
   .enter-key,
   .delete-key {
     font-size: 1em;
-    padding: 4px 8px;
-    height: 40px;
+    padding: 0.4rem 0.8rem;
+    height: 4rem;
   }
   .input-wrapper {
-  width: 200px;
-}
+    width: 200px;
+  }
 
-#input-bar {
-  width:100%;
-}
+  #input-bar {
+    width:100%;
+  }
 
-#fake-placeholder {
-  font-size: 26px;
-  width:100%; 
-}
-#fake-placeholder span.space {
-  display: inline-block;
-  width: 2px; /* Adjust for more space between words */
-}
+  #fake-placeholder {
+    font-size: 2.6rem;
+    width:100%; 
+  }
+  #fake-placeholder span.space {
+    display: inline-block;
+    width: 0.2rem; /* Adjust for more space between words */
+  }
   .modal {
     width: 60%;
-    padding: 20px;
+    padding: 2rem;
   }
 
   .modal-close {
@@ -501,7 +479,7 @@ html, body {
   }
 
   .message-container {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: center;
     width:50%;
 

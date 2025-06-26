@@ -190,17 +190,13 @@ function handleGuess() {
     alertMessage(errorMsg);
     return;
   }
-  if(GameState.guessCount >= GameState.maxGuess)
-  {
-    alertMessage("Maximum Number of Guesses Reached, You Lose");
-    inputBar.disabled = true;
-    return;
-  }
+  
   // Update count and what current word
   GameState.guessCount++;
   document.getElementById("guess-count").textContent = GameState.guessCount;
   GameState.currentWord = userInput;
 
+  
   // Add element to guess container
   const guessEl = document.createElement("div");
   guessEl.className = "guess-word";
@@ -219,7 +215,7 @@ function handleGuess() {
   // Change background color of correct letters
   applyFeedback(userInput, guessEl);
 
-  // Add shake animation to hint button
+  // Add shake animation to hint button, must be after guessCount increase
   if (continueShake && GameState.guessCount > GameState.targetGuess) {
     shouldShakeHint = true;
     loopHintBut();
@@ -233,6 +229,12 @@ function handleGuess() {
     inputBar.disabled = true;
     messageAppears();
     animateGuessReveal();
+  }
+  else if(GameState.guessCount >= GameState.maxGuess)
+  {
+    alertMessage("Maximum Number of Guesses Reached, You Lose");
+    inputBar.disabled = true;
+    return;
   }
 }
 
