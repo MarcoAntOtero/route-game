@@ -12,6 +12,7 @@ const GameState = {
 
 // ==== DOM ELEMENTS ====
 // Cache necessary DOM elements for faster lookup
+const body = document.body;
 const inputBar = document.getElementById("input-bar");
 const guessContainer = document.getElementById("guess-container");
 const startWordEl = document.getElementById("start-word-beginning").nextElementSibling;
@@ -25,10 +26,12 @@ const fakePlaceholder = document.getElementById('fake-placeholder');
 
 // Modal elements
 const overlay = document.getElementById("modal-overlay");
+const modal = document.getElementById("modal")
 const contentEl = document.getElementById("modal-content");
 const closeBtn = document.getElementById("modal-close");
 const howToBut = document.getElementById("how-to-but");
 const hintBut = document.getElementById("hint-but");
+const toggleDark = document.getElementById("toggle-but");
 
 // Keyboard UI
 const enterKey = document.getElementById("enter-key");
@@ -146,6 +149,19 @@ function setupEventListeners() {
       inputBar.value += key.textContent.toLowerCase();
       inputBar.dispatchEvent(new Event("input", { bubbles: true }));
     });
+  });
+
+  //Dark Mode Button
+  toggleDark.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+    inputBar.style.backgroundColor = "black";
+    inputBar.style.color = "white";
+    modal.classList.toggle("dark-mode");
+    keys.forEach((key) => {
+      key.classList.toggle("dark-mode");
+    });
+    enterKey.classList.toggle("dark-mode");
+    deleteKey.classList.toggle("dark-mode");
   });
 
   // Modal events
@@ -278,7 +294,7 @@ function isOneLetterDiff(word1, word2) {
 // ==== UI & FEEDBACK ====
 // Change background color of correct letters
 function applyFeedback(guess, guessEl) {
-  const feedback = Array(guess.length).fill("white");
+  const feedback = Array(guess.length).fill("");
 
   for (let i = 0; i < guess.length; i++) {
     if (guess[i] === GameState.endWord[i]) {

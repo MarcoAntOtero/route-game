@@ -18,6 +18,10 @@ body {
   line-height: 1.5;
   height: 100%;
 }
+body.dark-mode{
+  background-color: black;
+  color: white;
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -59,6 +63,7 @@ body {
 .toolbar-buttons-container {
   display: flex;
   gap: 2rem;
+  width: 47%;
 }
 
 .toolbar-buttons {
@@ -132,8 +137,8 @@ body {
 
 #fake-placeholder {
   position: absolute;
-  left: 0.5rem;
-  top: 0rem;
+  left: 0.6rem;
+  top: 0.1rem;
   pointer-events: none;
   font-size: 3rem;
   white-space: nowrap;
@@ -174,11 +179,21 @@ body {
   align-items: center;
   transition: background-color 0.3s ease, transform 0.05s ease;;
 }
-
+.key.dark-mode,
+.enter-key.dark-mode,
+.delete-key.dark-mode {
+  background-color: darkgray;
+}
 .key:hover,
 .enter-key:hover,
 .delete-key:hover {
   color: white;
+  background-color: #2f639e;
+}
+.key.dark-mode:hover,
+.enter-key.dark-mode:hover,
+.delete-key.dark-mode:hover {
+  color: black;
   background-color: #2f639e;
 }
 
@@ -310,13 +325,18 @@ body {
 }
 
 .modal {
-  background: white;
+  background-color: white;
   padding: 2rem;
   border-radius: 0.8rem;
   max-width: 60rem;
   width: 70%;
   position: relative;
   box-shadow: 0 0 1rem 0.3rem rgba(0,0,0,0.2);
+}
+.modal.dark-mode{
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 1rem 0.3rem rgba(255,255,255,0.8);
 }
 
 .modal-close {
