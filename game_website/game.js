@@ -311,7 +311,7 @@ function applyFeedback(guess, guessEl) {
 
     if(ndx !== -1)
     {
-      feedback[i] = "#fad810";
+      feedback[i] = "rgba(250, 216, 16,0.95)";
       answerChars[i] = "null";
     }
   }
