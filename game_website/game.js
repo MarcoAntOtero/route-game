@@ -154,8 +154,7 @@ function setupEventListeners() {
   //Dark Mode Button
   toggleDark.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
-    inputBar.style.backgroundColor = "black";
-    inputBar.style.color = "white";
+    inputBar.classList.toggle("dark-mode");
     modal.classList.toggle("dark-mode");
     keys.forEach((key) => {
       key.classList.toggle("dark-mode");
@@ -182,7 +181,9 @@ function setupEventListeners() {
         Each transformation must result in a <strong>valid</strong> word.</li>
         <li>Press <strong>Enter</strong> to submit your guess.</li>
         <li><span class="green">Green</span> means the letter is in the correct spot</li>
+        <li><span class="yellow">Yellow</span> means the letter is correct but not in right spot</li>
         <li>Your target guess is <strong>${GameState.targetGuess}</strong> to get to the end word correctly.</li>
+        <li>Good luck!! :)</li>
       </ol>
     `);
   });
@@ -294,11 +295,24 @@ function isOneLetterDiff(word1, word2) {
 // ==== UI & FEEDBACK ====
 // Change background color of correct letters
 function applyFeedback(guess, guessEl) {
-  const feedback = Array(guess.length).fill("");
+  const feedback = Array(guess.length).fill(null);
+  const answerChars = GameState.endWord.split('');
 
   for (let i = 0; i < guess.length; i++) {
-    if (guess[i] === GameState.endWord[i]) {
+    if (guess[i] === answerChars[i]) {
       feedback[i] = "#25969c"; // greenish color for correct letter
+      answerChars[i] = "null";
+    }
+  }
+
+  for(let i = 0; i < guess.length; i++){
+    if(feedback[i] !== null) continue;
+    const ndx = answerChars.indexOf(guess[i]);
+
+    if(ndx !== -1)
+    {
+      feedback[i] = "#fad810";
+      answerChars[i] = "null";
     }
   }
 
