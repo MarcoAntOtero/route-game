@@ -78,5 +78,53 @@
     "message":"The NMDOT is undertaking a significant design-build project to improve the I-25 corridor in Albuquerque, from Comanche to Montgomery, by replacing aging infrastructure, enhancing safety for all users, and aiming to improve travel times before you EXIT the area. Find out more at the link",
     "link": "https://www.i25improved.com/",
     "target_guess" :"4"
+  },
+  "2025-07-03":{
+    "start_word" : "leap",
+    "end_word": "deer",
+    "clue":"dead",
+    "message":"NMDOT building a massive overpass, underpasses and fencing along a 17‑mile stretch of US 550 north of Cuba, nicknamed the “Valley of Death,” to keep DEER, elk, bears, and other wildlife from getting hit. It’s now in design mode with engineering finishing this year and construction gearing up for 2026. Read more about the project at the link",
+    "link": "https://www.dot.nm.gov/projects/active-projects/us550wildlifeproject/",
+    "target_guess" :"5"
+  },
+  "2025-07-04":{
+    "start_word" : "heal",
+    "end_word": "rail",
+    "clue":"neil",
+    "message":"Check out this page to explore upcoming special events you can take the RAIL Runner to, like live Shakespeare performances on the train or free youth/senior rides: Ride the Rail Runner to special events! Learn more and view the full list at the link:",
+    "link": "https://www.riometro.org/185/Special-Events",
+    "target_guess" :"5"
+  },
+  "2025-07-05":{
+    "start_word" : "cart",
+    "end_word": "ride",
+    "clue":"bade",
+    "message":"Check out this page to discover how the NMDOT Park & RIDE can make your weekday commute chill with express buses, bike racks, ADA access, and easy-peasy parking at no extra cost. Explore Park & Ride bus & shuttle service at the link! ",
+    "link": "https://www.dot.nm.gov/travel-information/park-and-ride-bus-shuttle-service/",
+    "target_guess" :"6"
+  },
+  "2025-07-06":{
+    "start_word" : "lock",
+    "end_word": "safe",
+    "clue":"sank",
+    "message":"NMDOT’s design‑build overhaul from Comanche to Montgomery is straightening out the sketchy “S‑Curve” on I‑25 by adding a southbound lane, rebuilt interchanges, barrier‑separated bike/pedestrian paths, and U‑turns to make it SAFE for drivers, walkers, and bikers. To learn more click the link.",
+    "link": "https://www.i25scurve.com/",
+    "target_guess" :"5"
+  },
+  "2025-07-07":{
+    "start_word" : "grad",
+    "end_word": "flow",
+    "clue":"clad",
+    "message":"NMDOT is studying the U.S. 60 stretch from Milepost 136.2–139 through Socorro to determine upgrades that’ll boost safety, ease congestion, and improve pedestrian and bike access. Hoping to make the corridor FLOW better for locals and travelers alike by smoothing transitions between rural and urban zones. Learn more at the link.",
+    "link": "https://www.dot.nm.gov/projects/active-projects/us60socorrostudy/",
+    "target_guess" :"5"
+  },
+  "2025-07-08":{
+    "start_word" : "",
+    "end_word": "",
+    "clue":"",
+    "message":"",
+    "link": "",
+    "target_guess" :""
   }
 }
