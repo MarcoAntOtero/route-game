@@ -73,14 +73,14 @@ async function init() {
 // ==== LOADERS ====
 // Load dictionary.json (External Files)
 async function loadDictionary() {
-  const response = await fetch("assets/newDictionary.json");
+  const response = await fetch("resources/newDictionary.json");
   if (!response.ok) throw new Error("Failed to load dictionary.");
   return await response.json();
 }
 
 // Load puzzle.json and find today's puzzle
 async function loadPuzzle(date) {
-  const response = await fetch("assets/puzzle.json");
+  const response = await fetch("resources/puzzle.json");
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
