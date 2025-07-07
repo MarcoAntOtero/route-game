@@ -1,5 +1,6 @@
 // ==== STATE ====
 // Assign Beginning Variables
+console.log("Initializing game...");
 const GameState = {
   currentWord: "",         // Tracks the player's current word
   endWord: "",             // The target word to guess
@@ -59,6 +60,7 @@ async function init() {
   try {
     // Load dictionary and puzzle
     GameState.dictionaryTrie = await loadDictionary();
+    console.log(currentDate);
     const puzzle = await loadPuzzle(currentDate);
 
     // Assign puzzle data to game state and UI
