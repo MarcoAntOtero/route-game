@@ -84,6 +84,7 @@ async function loadPuzzle(date) {
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
+  console.log("Looking for date:", date);
   if (!puzzle) throw new Error("Puzzle not found for the current date.");
   return puzzle;
 }
