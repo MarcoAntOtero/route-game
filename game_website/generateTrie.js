@@ -1,4 +1,5 @@
-// https://scrabguys.home.blog/4lw/
+// https://scrabguys.home.blog/4lw/ for word list
+// This script generates a trie from a list of words and saves it as a JSON file.
 const fs = require("fs");
 const path = require("path");
 
