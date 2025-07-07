@@ -36,11 +36,11 @@ Input bar with animated feedback
 Dark mode toggle
 Auto-loads a new puzzle each day
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Acknowledgments:
+## Acknowledgments:
 The word list was sourced from ScrabGuys (Scrabble CSW24 4‑letter words).
 The trie structure idea is adapted from John Resig’s blog post “Dictionary Lookups in JavaScript” .
 I used Node.js to run generateTrie.js, converting the plain-text list into newDictionary.json via the trie method inspired by Resig.
+
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
