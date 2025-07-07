@@ -1,6 +1,5 @@
 // ==== STATE ====
 // Assign Beginning Variables
-console.log("Initializing game...");
 const GameState = {
   currentWord: "",         // Tracks the player's current word
   endWord: "",             // The target word to guess
@@ -61,7 +60,7 @@ async function init() {
     // Load dictionary and puzzle
     GameState.dictionaryTrie = await loadDictionary();
     const puzzle = await loadPuzzle(currentDate);
-
+    
     // Assign puzzle data to game state and UI
     setupPuzzle(puzzle);
     setupEventListeners();
@@ -329,7 +328,7 @@ function displayWinMessage(guessCount,targetGuess) {
   let winMessage = '';
   winMessageEl.className = "win-message";
   if(guessCount <= targetGuess){
-    winMessage = winMessage = `🎉 Amazing! You solved it in ${guessCount} move${guessCount !== 1 ? 's' : ''}, which meets the target of ${targetGuess} moves!`;
+    winMessage = winMessage = `🎉 Amazing! You solved it in ${guessCount} moves, which meets the target of ${targetGuess} moves! Come again for tomorrow's puzzle!`;
   }
   else{winMessage = `Nice try! You solved it in ${guessCount} moves, but missed the target of ${targetGuess}. Try again tomorrow!`;}
   winMessageEl.textContent = winMessage;

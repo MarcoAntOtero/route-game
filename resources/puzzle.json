@@ -1,10 +1,18 @@
 {
     "2025-07-07": {
-        "start_word": "warm",
-        "end_word": "road",
-        "clue": "lord",
-        "message": "NMDOT is working on design improvements for Cerrillos ROAD, a busy four-lane corridor important for cars, bikes, pedestrians, and transit in Santa Fe. The project aims to improve mobility, fix sidewalks and drainage issues, and better manage traffic without adding more lanes or impacting nearby businesses and historic sites. Learn more about the project at the link",
-        "link": "https://nm14cerrillos.nmdotprojects.org/",
+        "start_word": "seed",
+        "end_word": "grid",
+        "clue": "beed",
+        "message": "NMDOT received grant to improve the EV charging GRID including new stations along I‑10. Plus, the state’s Clean Car Tax Credit offers up to $3,000 for new EVs (plus charger credits), making it easier for folks to go electric. Learn more about the project at the link",
+        "link": "https://clean.energy.nm.gov/landing/clean-car/",
+        "target_guess": "6"
+    },
+    "2025-07-08": {
+        "start_word": "bose",
+        "end_word": "root",
+        "clue": "hoot",
+        "message": "NMDOT is mapping, monitoring, and targeted treatments to nurture deep native roots and promote resilient roadside ecosystems across roughly 215,000 acres. Learn more about the project at the link",
+        "link": "https://www.dot.nm.gov/infrastructure/environment/roadside-community-design-section/integrated-vegetation-management",
         "target_guess": "5"
     },
     "2025-07-12": {
@@ -128,6 +136,14 @@
         "target_guess": "4"
     },
     "2025-07-27": {
+        "start_word": "warm",
+        "end_word": "road",
+        "clue": "lord",
+        "message": "NMDOT is working on design improvements for Cerrillos ROAD, a busy four-lane corridor important for cars, bikes, pedestrians, and transit in Santa Fe. The project aims to improve mobility, fix sidewalks and drainage issues, and better manage traffic without adding more lanes or impacting nearby businesses and historic sites. Learn more about the project at the link",
+        "link": "https://nm14cerrillos.nmdotprojects.org/",
+        "target_guess": "5"
+    },
+    "2025-07-28": {
         "start_word": "",
         "end_word": "",
         "clue": "",
@@ -135,7 +151,7 @@
         "link": "",
         "target_guess": ""
     },
-    "2025-07-28": {
+    "2025-07-29": {
         "start_word": "",
         "end_word": "",
         "clue": "",
