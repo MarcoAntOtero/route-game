@@ -14,7 +14,7 @@ The standalone version can also be opened directly from the GitHub Pages URL.
 ├── game.js                  # Game logic and user interaction  
 ├── game-website/  
 │&nbsp;&nbsp;&nbsp;&nbsp;├── generateTrie.js      # Node.js script to build the dictionary trie  
-│&nbsp;&nbsp;&nbsp;&nbsp;└── assets/  
+│&nbsp;&nbsp;&nbsp;&nbsp;├── assets/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── old_list_of_words.txt  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── oldDictionary.json  
 │&nbsp;&nbsp;&nbsp;&nbsp;└── words_lines.txt  # List of words used to generate the dictionary  
