@@ -3,7 +3,7 @@ Route is an interactive browser-based word puzzle where players transform a star
 It’s inspired by classic “Word Ladder” puzzles but offers a polished, responsive web experience.
 
 ## Live Deployment
-Play it now: nmdot.gov/route
+Play it now: https://www.dot.nm.gov/route
 This game is hosted via GitHub Pages and embedded in the official New Mexico Department of Transportation website using an <iframe>.  
 The standalone version can also be opened directly from the GitHub Pages URL.
 
@@ -45,4 +45,6 @@ I used Node.js to run generateTrie.js, converting the plain-text list into newDi
 
 
 ## 📄 License  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed for personal and educational use only.  
+No redistribution, modification, or commercial use is permitted without explicit permission.  
+See the [LICENSE](./LICENSE) file for full terms.
