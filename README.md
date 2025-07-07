@@ -1,12 +1,11 @@
-Route – Daily Word Transformation Puzzle
+## Route – Daily Word Transformation Puzzle
 Route is an interactive browser-based word puzzle where players transform a starting word into an ending word—one letter at a time—forming valid words at every step. It’s inspired by classic “Word Ladder” puzzles but offers a polished, responsive web experience.
 
-Live Deployment
+## Live Deployment
 Play it now: nmdot.gov/route
-
 This game is hosted via GitHub Pages and embedded in the official New Mexico Department of Transportation website using an <iframe>. The standalone version can also be opened directly from the GitHub Pages URL.
 
-Project Structure
+## Project Structure
 .
 ├── index.html             # Main HTML page and layout
 ├── index.css              # Styling, layout, animations, dark mode
@@ -21,21 +20,25 @@ Project Structure
     ├── newDictionary.json   # Dictionary in trie format
     └── puzzle.json          # Daily puzzles keyed by date
 
-Gameplay Overview
+## Gameplay Overview
 Goal: Get from the start word to the end word.
 Rule: Change exactly one letter per guess; all guesses must be valid words.
 
-Feedback:
+## Feedback:
 🟩 Letter is correct and in the correct position
 🟨 Letter is correct but in the wrong position
 ❌ Invalid guess or incorrect transformation shows an alert
 
-UI Features:
+## UI Features:
 On-screen clickable keyboard
 Input bar with animated feedback
 "Hint" and "How to Play" modals
 Dark mode toggle
 Auto-loads a new puzzle each day
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 Acknowledgments:
 The word list was sourced from ScrabGuys (Scrabble CSW24 4‑letter words).
