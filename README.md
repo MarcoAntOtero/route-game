@@ -7,17 +7,17 @@ This game is hosted via GitHub Pages and embedded in the official New Mexico Dep
 
 ## Project Structure
 .
-├── index.html             # Main HTML page and layout
-├── index.css              # Styling, layout, animations, dark mode
-├── game.js                # Full game logic, UI, input handling
-└── game-website/
-    ├── generateTrie.js        # Node.js script to build the dictionary trie
-    └── assets/
-        ├── old_list_of_words.txt
-        ├── oldDictionary.json
-        └── words_lines.txt    # List of words for dictionary
+├── index.html               # Main HTML page and layout
+├── index.css                # Styling, layout, animations, dark mode
+├── game.js                  # Game logic and user interaction
+├── game-website/
+│   ├── generateTrie.js      # Node.js script to build the dictionary trie
+│   └── assets/
+│       ├── old_list_of_words.txt
+│       ├── oldDictionary.json
+│       └── words_lines.txt  # List of words used to generate the dictionary
 └── resources/
-    ├── newDictionary.json   # Dictionary in trie format
+    ├── newDictionary.json   # Dictionary stored as a trie
     └── puzzle.json          # Daily puzzles keyed by date
 
 ## Gameplay Overview
