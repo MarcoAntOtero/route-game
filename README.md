@@ -8,7 +8,7 @@ This game is hosted via GitHub Pages and embedded in the official New Mexico Dep
 The standalone version can also be opened directly from the GitHub Pages URL.
 
 ## Project Structure
-.
+.  
 ├── index.html               # Main HTML page and layout  
 ├── index.css                # Styling, layout, animations, dark mode  
 ├── game.js                  # Game logic and user interaction  
