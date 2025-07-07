@@ -1,130 +1,146 @@
 {
-  "2025-06-23": {
-    "start_word": "warm",
-    "end_word": "road",
-    "clue":"Test hint",
-    "message":"NMDOT is working on design improvements for Cerrillos ROAD, a busy four-lane corridor important for cars, bikes, pedestrians, and transit in Santa Fe. The project aims to improve mobility, fix sidewalks and drainage issues, and better manage traffic without adding more lanes or impacting nearby businesses and historic sites. Learn more about the project at the link",
-    "link":"https://nm14cerrillos.nmdotprojects.org/",
-    "target_guess" : "6"
-  },
-  "2025-06-24": {
-    "start_word": "rook",
-    "end_word": "dust",
-    "clue":"ruck",
-    "message":"NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
-    "link":"https://dustmitigation.nmdotprojects.org/",
-    "target_guess" : "5"
-  },
-  "2025-06-25": {
-    "start_word": "pity",
-    "end_word": "life",
-    "clue":"cite",
-    "message":"New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
-    "link":"https://wildlifeactionplan.nmdotprojects.org/",
-    "target_guess" : "4"
-  },
-  "2025-06-26": {
-    "start_word": "rose",
-    "end_word": "pave",
-    "clue":"love",
-    "message":"NMDOT recently wrapped up a $5.6 million repaving and “road diet” along the 5.5-mile stretch of Date, Broadway, and Main Streets to help slow drivers down and make the area safer for people walking and biking. Click the link for more info",
-    "link":"https://www.dot.nm.gov/t-or-c-road-diet/",
-    "target_guess" : "4"
-  },
-  "2025-06-27": {
-    "start_word": "word",
-    "end_word": "aero",
-    "clue":"herd",
-    "message":"The New Mexico Department of Transportation (NMDOT) Aviation Division is distributing $20 million to 11 regional airport projects across the state, with Los Alamos County Airport receiving $1.9 million. Learn more at the link.",
-    "link":"https://aviationacrossamerica.org/news/2022/04/29/nmdot-distributes-20-million-to-regional-airports-including-1-9-million-to-los-alamos/",
-    "target_guess" : "5"
-  },
-  "2025-06-28": {
-    "start_word": "past",
-    "end_word": "dock",
-    "clue":"lack",
-    "message":"New Mexico is set to get around $38 million from the federal NEVI program (2022–2026) to build a fast-charging network along I‑25, I‑40, and I‑10 with charging DOCKS spaced about every 50 miles. Each charging spot must have at least four ultra-fast (150 kW) CCS chargers, open to all drivers, plus NMDOT will cover installation, upkeep, data monitoring, and planning efforts .",
-    "link":"https://www.dot.nm.gov/electrifying-new-mexico/?ev=nevi",
-    "target_guess" : "5"
-  },
-  "2025-06-29":{
-    "start_word" : "plan",
-    "end_word": "grow",
-    "clue":"ploy",
-    "message":"This NMDOT project is all about helping ecosystems grow, layering green infrastructure along rights‑of‑way to tackle stormwater, reduce erosion, and rebuild wildlife habitats. Find out more at the link.",
-    "link": "https://www.dot.nm.gov/planning-research-multimodal-and-safety/planning-division/research-and-climate-bureau/",
-    "target_guess" :"5"
-  },
-  "2025-06-30":{
-    "start_word" : "nest",
-    "end_word": "lane",
-    "clue":"cast",
-    "message":"$278 million design-build overhaul widens I‑25 through Albuquerque by adding an extra LANE, reconstructing interchange ramps, and replacing aging bridges between Comanche Road and Montgomery Boulevard. Click the link for more info",
-    "link": "https://www.dot.nm.gov/blog/2024/07/16/nmdot-kicks-off-largest-construction-project-in-recent-history/",
-    "target_guess" :"6"
-  },
-  "2025-07-01":{
-    "start_word" : "leer",
-    "end_word": "span",
-    "clue":"seen",
-    "message":"$71.25 million federal grant and a total $142 million budget, NMDOT will SPAN Nogal Canyon with two modern bridges on I‑25 to replace deteriorating structures and flatten approach grades. Click the link for more info",
-    "link": "https://www.dot.nm.gov/blog/2024/07/30/new-mexico-awarded-71-million-grant-for-nogal-canyon-bridge-replacement-project/",
-    "target_guess" :"5"
-  },
-  "2025-07-02":{
-    "start_word" : "oden",
-    "end_word": "exit",
-    "clue":"edin",
-    "message":"The NMDOT is undertaking a significant design-build project to improve the I-25 corridor in Albuquerque, from Comanche to Montgomery, by replacing aging infrastructure, enhancing safety for all users, and aiming to improve travel times before you EXIT the area. Find out more at the link",
-    "link": "https://www.i25improved.com/",
-    "target_guess" :"4"
-  },
-  "2025-07-03":{
-    "start_word" : "leap",
-    "end_word": "deer",
-    "clue":"dead",
-    "message":"NMDOT building a massive overpass, underpasses and fencing along a 17‑mile stretch of US 550 north of Cuba, nicknamed the “Valley of Death,” to keep DEER, elk, bears, and other wildlife from getting hit. It’s now in design mode with engineering finishing this year and construction gearing up for 2026. Read more about the project at the link",
-    "link": "https://www.dot.nm.gov/projects/active-projects/us550wildlifeproject/",
-    "target_guess" :"5"
-  },
-  "2025-07-04":{
-    "start_word" : "heal",
-    "end_word": "rail",
-    "clue":"neil",
-    "message":"Check out this page to explore upcoming special events you can take the RAIL Runner to, like live Shakespeare performances on the train or free youth/senior rides: Ride the Rail Runner to special events! Learn more and view the full list at the link:",
-    "link": "https://www.riometro.org/185/Special-Events",
-    "target_guess" :"5"
-  },
-  "2025-07-05":{
-    "start_word" : "cart",
-    "end_word": "ride",
-    "clue":"bade",
-    "message":"Check out this page to discover how the NMDOT Park & RIDE can make your weekday commute chill with express buses, bike racks, ADA access, and easy-peasy parking at no extra cost. Explore Park & Ride bus & shuttle service at the link! ",
-    "link": "https://www.dot.nm.gov/travel-information/park-and-ride-bus-shuttle-service/",
-    "target_guess" :"6"
-  },
-  "2025-07-06":{
-    "start_word" : "lock",
-    "end_word": "safe",
-    "clue":"sank",
-    "message":"NMDOT’s design‑build overhaul from Comanche to Montgomery is straightening out the sketchy “S‑Curve” on I‑25 by adding a southbound lane, rebuilt interchanges, barrier‑separated bike/pedestrian paths, and U‑turns to make it SAFE for drivers, walkers, and bikers. To learn more click the link.",
-    "link": "https://www.i25scurve.com/",
-    "target_guess" :"5"
-  },
-  "2025-07-07":{
-    "start_word" : "grad",
-    "end_word": "flow",
-    "clue":"clad",
-    "message":"NMDOT is studying the U.S. 60 stretch from Milepost 136.2–139 through Socorro to determine upgrades that’ll boost safety, ease congestion, and improve pedestrian and bike access. Hoping to make the corridor FLOW better for locals and travelers alike by smoothing transitions between rural and urban zones. Learn more at the link.",
-    "link": "https://www.dot.nm.gov/projects/active-projects/us60socorrostudy/",
-    "target_guess" :"5"
-  },
-  "2025-07-08":{
-    "start_word" : "",
-    "end_word": "",
-    "clue":"",
-    "message":"",
-    "link": "",
-    "target_guess" :""
-  }
+    "2025-07-11": {
+        "start_word": "warm",
+        "end_word": "road",
+        "clue": "Test hint",
+        "message": "NMDOT is working on design improvements for Cerrillos ROAD, a busy four-lane corridor important for cars, bikes, pedestrians, and transit in Santa Fe. The project aims to improve mobility, fix sidewalks and drainage issues, and better manage traffic without adding more lanes or impacting nearby businesses and historic sites. Learn more about the project at the link",
+        "link": "https://nm14cerrillos.nmdotprojects.org/",
+        "target_guess": "6"
+    },
+    "2025-07-12": {
+        "start_word": "rook",
+        "end_word": "dust",
+        "clue": "ruck",
+        "message": "NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
+        "link": "https://dustmitigation.nmdotprojects.org/",
+        "target_guess": "5"
+    },
+    "2025-07-13": {
+        "start_word": "pity",
+        "end_word": "life",
+        "clue": "cite",
+        "message": "New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
+        "link": "https://wildlifeactionplan.nmdotprojects.org/",
+        "target_guess": "4"
+    },
+    "2025-07-14": {
+        "start_word": "rose",
+        "end_word": "pave",
+        "clue": "love",
+        "message": "NMDOT recently wrapped up a $5.6 million repaving and “road diet” along the 5.5-mile stretch of Date, Broadway, and Main Streets to help slow drivers down and make the area safer for people walking and biking. Click the link for more info",
+        "link": "https://www.dot.nm.gov/t-or-c-road-diet/",
+        "target_guess": "4"
+    },
+    "2025-07-15": {
+        "start_word": "word",
+        "end_word": "aero",
+        "clue": "herd",
+        "message": "The New Mexico Department of Transportation (NMDOT) Aviation Division is distributing $20 million to 11 regional airport projects across the state, with Los Alamos County Airport receiving $1.9 million. Learn more at the link.",
+        "link": "https://aviationacrossamerica.org/news/2022/04/29/nmdot-distributes-20-million-to-regional-airports-including-1-9-million-to-los-alamos/",
+        "target_guess": "5"
+    },
+    "2025-07-16": {
+        "start_word": "past",
+        "end_word": "dock",
+        "clue": "lack",
+        "message": "New Mexico is set to get around $38 million from the federal NEVI program (2022–2026) to build a fast-charging network along I‑25, I‑40, and I‑10 with charging DOCKS spaced about every 50 miles. Each charging spot must have at least four ultra-fast (150 kW) CCS chargers, open to all drivers, plus NMDOT will cover installation, upkeep, data monitoring, and planning efforts .",
+        "link": "https://www.dot.nm.gov/electrifying-new-mexico/?ev=nevi",
+        "target_guess": "5"
+    },
+    "2025-07-17": {
+        "start_word": "plan",
+        "end_word": "grow",
+        "clue": "ploy",
+        "message": "This NMDOT project is all about helping ecosystems grow, layering green infrastructure along rights‑of‑way to tackle stormwater, reduce erosion, and rebuild wildlife habitats. Find out more at the link.",
+        "link": "https://www.dot.nm.gov/planning-research-multimodal-and-safety/planning-division/research-and-climate-bureau/",
+        "target_guess": "5"
+    },
+    "2025-07-18": {
+        "start_word": "leer",
+        "end_word": "span",
+        "clue": "seen",
+        "message": "$71.25 million federal grant and a total $142 million budget, NMDOT will SPAN Nogal Canyon with two modern bridges on I‑25 to replace deteriorating structures and flatten approach grades. Click the link for more info",
+        "link": "https://www.dot.nm.gov/blog/2024/07/30/new-mexico-awarded-71-million-grant-for-nogal-canyon-bridge-replacement-project/",
+        "target_guess": "5"
+    },
+    "2025-07-19": {
+        "start_word": "oden",
+        "end_word": "exit",
+        "clue": "edin",
+        "message": "The NMDOT is undertaking a significant design-build project to improve the I-25 corridor in Albuquerque, from Comanche to Montgomery, by replacing aging infrastructure, enhancing safety for all users, and aiming to improve travel times before you EXIT the area. Find out more at the link",
+        "link": "https://www.i25improved.com/",
+        "target_guess": "4"
+    },
+    "2025-07-20": {
+        "start_word": "leap",
+        "end_word": "deer",
+        "clue": "dead",
+        "message": "NMDOT building a massive overpass, underpasses and fencing along a 17‑mile stretch of US 550 north of Cuba, nicknamed the “Valley of Death,” to keep DEER, elk, bears, and other wildlife from getting hit. It’s now in design mode with engineering finishing this year and construction gearing up for 2026. Read more about the project at the link",
+        "link": "https://www.dot.nm.gov/projects/active-projects/us550wildlifeproject/",
+        "target_guess": "5"
+    },
+    "2025-07-21": {
+        "start_word": "heal",
+        "end_word": "rail",
+        "clue": "neil",
+        "message": "Check out this page to explore upcoming special events you can take the RAIL Runner to, like live Shakespeare performances on the train or free youth/senior rides: Ride the Rail Runner to special events! Learn more and view the full list at the link:",
+        "link": "https://www.riometro.org/185/Special-Events",
+        "target_guess": "5"
+    },
+    "2025-07-22": {
+        "start_word": "cart",
+        "end_word": "ride",
+        "clue": "bade",
+        "message": "Check out this page to discover how the NMDOT Park & RIDE can make your weekday commute chill with express buses, bike racks, ADA access, and easy-peasy parking at no extra cost. Explore Park & Ride bus & shuttle service at the link! ",
+        "link": "https://www.dot.nm.gov/travel-information/park-and-ride-bus-shuttle-service/",
+        "target_guess": "6"
+    },
+    "2025-07-23": {
+        "start_word": "lock",
+        "end_word": "safe",
+        "clue": "sank",
+        "message": "NMDOT’s design‑build overhaul from Comanche to Montgomery is straightening out the sketchy “S‑Curve” on I‑25 by adding a southbound lane, rebuilt interchanges, barrier‑separated bike/pedestrian paths, and U‑turns to make it SAFE for drivers, walkers, and bikers. To learn more click the link.",
+        "link": "https://www.i25scurve.com/",
+        "target_guess": "5"
+    },
+    "2025-07-24": {
+        "start_word": "grad",
+        "end_word": "flow",
+        "clue": "clad",
+        "message": "NMDOT is studying the U.S. 60 stretch from Milepost 136.2–139 through Socorro to determine upgrades that’ll boost safety, ease congestion, and improve pedestrian and bike access. Hoping to make the corridor FLOW better for locals and travelers alike by smoothing transitions between rural and urban zones. Learn more at the link.",
+        "link": "https://www.dot.nm.gov/projects/active-projects/us60socorrostudy/",
+        "target_guess": "5"
+    },
+    "2025-07-25": {
+        "start_word": "zoom",
+        "end_word": "tour",
+        "clue": "poor",
+        "message": "New Mexico invites travelers on a cultural TOUR through its landscapes blending Native American and Spanish heritage with arts, cuisine, festivals and outdoor exploration. It’s your one‑stop guide for planning scenic road trips, art and food tours, historic sites, and regional experiences across the Land of Enchantment. Learn more at the link.",
+        "link": "https://www.newmexico.org/",
+        "target_guess": "5"
+    },
+    "2025-07-26": {
+        "start_word": "bond",
+        "end_word": "road",
+        "clue": "bead",
+        "message": "The official ROAD advisory system from the New Mexico Department of Transportation that provides real-time updates on road conditions, closures, accidents, and weather via an interactive map and live cameras. Find out more at the link.",
+        "link": "https://nmroads.com/default.html?",
+        "target_guess": "4"
+    },
+    "2025-07-27": {
+        "start_word": "",
+        "end_word": "",
+        "clue": "",
+        "message": "",
+        "link": "",
+        "target_guess": ""
+    },
+    "2025-07-28": {
+        "start_word": "",
+        "end_word": "",
+        "clue": "",
+        "message": "",
+        "link": "",
+        "target_guess": ""
+    }
 }

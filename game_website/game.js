@@ -271,6 +271,7 @@ function isValidGuess(word) {
 }
 
 // Check if word exists in dictionary trie
+/*CODE TAKEN FROM INTERNET AND EXISTING IDEAS, NOT MINE*/
 function isWord(word) {
   if (!GameState.dictionaryTrie) return false;
 
