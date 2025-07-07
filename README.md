@@ -13,14 +13,14 @@ The standalone version can also be opened directly from the GitHub Pages URL.
 ├── index.css                # Styling, layout, animations, dark mode  
 ├── game.js                  # Game logic and user interaction  
 ├── game-website/  
-│   ├── generateTrie.js      # Node.js script to build the dictionary trie  
-│   └── assets/  
-│       ├── old_list_of_words.txt  
-│       ├── oldDictionary.json  
-│       └── words_lines.txt  # List of words used to generate the dictionary  
+│&nbsp;&nbsp;&nbsp;&nbsp;├── generateTrie.js      # Node.js script to build the dictionary trie  
+│&nbsp;&nbsp;&nbsp;&nbsp;└── assets/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── old_list_of_words.txt  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── oldDictionary.json  
+│&nbsp;&nbsp;&nbsp;&nbsp;└── words_lines.txt  # List of words used to generate the dictionary  
 └── resources/  
-    ├── newDictionary.json   # Dictionary stored as a trie  
-    └── puzzle.json          # Daily puzzles keyed by date  
+&nbsp;&nbsp;&nbsp;&nbsp;├── newDictionary.json   # Dictionary stored as a trie  
+&nbsp;&nbsp;&nbsp;&nbsp;└── puzzle.json          # Daily puzzles keyed by date  
 
 ## Gameplay Overview  
 Goal: Get from the start word to the end word.  
