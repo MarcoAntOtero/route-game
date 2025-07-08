@@ -158,5 +158,29 @@
         "message": "",
         "link": "",
         "target_guess": ""
+    },
+    "2025-08-02": {
+        "start_word": "horn",
+        "end_word": "mute",
+        "clue": "core",
+        "message": "NMDOT is establishing Quiet Zones along the Rail Runner route, allowing trains to pass crossings without sounding the HORN where safety upgrades are installed. Communities can apply to MUTE noise. Details at the link.",
+        "link": "https://www.riometro.org/354/Pedestrian-and-Driver-Safety",
+        "target_guess": "7"
+    },
+    "2025-08-03":{
+        "start_word": "feel",
+        "end_word": "glow",
+        "clue": "flew",
+        "message": "New street lighting is included as part of NMDOT’s major reconstruction along NM 31 and NM 128 near Jal, New Mexico. The upgrades aim to improve visibility, safety, and access for heavy truck traffic and residents, bringing a safer nighttime GLOW to this corridor. Learn more about the project at the link.",
+        "link": "https://nm31-128project.nmdotprojects.org/",
+        "target_guess": "5"
+    },
+    "2025-08-04": {
+        "start_word": "flap",
+        "end_word": "spin",
+        "clue": "ship",
+        "message": "NMDOT is studying options to improve the I‑25 Raton–Clayton interchange, where unclear ramps and poor sightlines have caused driver confusion and dangerous SPIN-outs. Public feedback is helping shape the future design. Learn more at the link.",
+        "link": "https://bhi.mysocialpinpoint.com/raton-clayton-interchange",  
+        "target_guess": "5"
     }
 }
