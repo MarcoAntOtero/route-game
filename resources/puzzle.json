@@ -1,12 +1,4 @@
 {
-    "2025-07-07": {
-        "start_word": "seed",
-        "end_word": "grid",
-        "clue": "beed",
-        "message": "NMDOT received grant to improve the EV charging GRID including new stations along I‑10. Plus, the state’s Clean Car Tax Credit offers up to $3,000 for new EVs (plus charger credits), making it easier for folks to go electric. Learn more about the project at the link",
-        "link": "https://clean.energy.nm.gov/landing/clean-car/",
-        "target_guess": "6"
-    },
     "2025-07-08": {
         "start_word": "bose",
         "end_word": "root",
@@ -144,12 +136,20 @@
         "target_guess": "5"
     },
     "2025-07-28": {
-        "start_word": "",
-        "end_word": "",
-        "clue": "",
-        "message": "",
-        "link": "",
-        "target_guess": ""
+        "start_word": "seed",
+        "end_word": "grid",
+        "clue": "beed",
+        "message": "NMDOT received grant to improve the EV charging GRID including new stations along I‑10. Plus, the state’s Clean Car Tax Credit offers up to $3,000 for new EVs (plus charger credits), making it easier for folks to go electric. Learn more about the project at the link",
+        "link": "https://clean.energy.nm.gov/landing/clean-car/",
+        "target_guess": "6"
+    },
+    "2025-07-30": {
+        "start_word": "luke",
+        "end_word": "ways",
+        "clue": "ware",
+        "message": "The New Mexico Scenic ByWAYS Story Map is a visually engaging guide to the state's most picturesque drives, from the alpine Enchanted Circle to the historic High Road to Taos. Learn more at the link, perfect for planning a road trip or simply daydreaming about your next adventure.",
+        "link": "https://storymaps.arcgis.com/stories/03e6d455024b42129d9cb1ea087211b0",
+        "target_guess": "5"
     },
     "2025-07-29": {
         "start_word": "",
@@ -158,5 +158,13 @@
         "message": "",
         "link": "",
         "target_guess": ""
+    },
+    "2025-08-01": {
+        "start_word": "stag",
+        "end_word": "plan",
+        "clue": "slay",
+        "message": "The Trail of the Ancients Scenic Byway, running through the Four Corners region, is getting refreshed corridor management and interactive mapping to spotlight archaeological sites, cultural history, and geologic wonders—bringing the ancient landscape to modern travelers. It’s all about making the journey as meaningful as the destination. Learn more at the link.",
+        "link": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/",
+        "target_guess": "4"
     }
 }
