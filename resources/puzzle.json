@@ -158,13 +158,5 @@
         "message": "",
         "link": "",
         "target_guess": ""
-    },
-    "2025-08-01": {
-        "start_word": "stag",
-        "end_word": "plan",
-        "clue": "slay",
-        "message": "The Trail of the Ancients Scenic Byway, running through the Four Corners region, is getting refreshed corridor management and interactive mapping to spotlight archaeological sites, cultural history, and geologic wonders—bringing the ancient landscape to modern travelers. It’s all about making the journey as meaningful as the destination. Learn more at the link.",
-        "link": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/",
-        "target_guess": "4"
     }
 }
