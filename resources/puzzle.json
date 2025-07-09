@@ -1,13 +1,5 @@
 {
-    "2025-07-08": {
-        "start_word": "bose",
-        "end_word": "root",
-        "clue": "hoot",
-        "message": "NMDOT is mapping, monitoring, and targeted treatments to nurture deep native roots and promote resilient roadside ecosystems across roughly 215,000 acres. Learn more about the project at the link",
-        "link": "https://www.dot.nm.gov/infrastructure/environment/roadside-community-design-section/integrated-vegetation-management",
-        "target_guess": "5"
-    },
-    "2025-07-12": {
+    "2025-07-09": {
         "start_word": "rook",
         "end_word": "dust",
         "clue": "ruck",
@@ -143,6 +135,14 @@
         "link": "https://clean.energy.nm.gov/landing/clean-car/",
         "target_guess": "6"
     },
+    "2025-07-29": {
+        "start_word": "bose",
+        "end_word": "root",
+        "clue": "hoot",
+        "message": "NMDOT is mapping, monitoring, and targeted treatments to nurture deep native roots and promote resilient roadside ecosystems across roughly 215,000 acres. Learn more about the project at the link",
+        "link": "https://www.dot.nm.gov/infrastructure/environment/roadside-community-design-section/integrated-vegetation-management",
+        "target_guess": "5"
+    },
     "2025-07-30": {
         "start_word": "luke",
         "end_word": "ways",
@@ -151,7 +151,7 @@
         "link": "https://storymaps.arcgis.com/stories/03e6d455024b42129d9cb1ea087211b0",
         "target_guess": "5"
     },
-    "2025-07-29": {
+    "2025-07-31": {
         "start_word": "",
         "end_word": "",
         "clue": "",
