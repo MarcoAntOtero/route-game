@@ -152,12 +152,12 @@
         "target_guess": "5"
     },
     "2025-07-31": {
-        "start_word": "",
-        "end_word": "",
-        "clue": "",
-        "message": "",
-        "link": "",
-        "target_guess": ""
+        "start_word": "site",
+        "end_word": "past",
+        "clue": "pitt",
+        "message": "NMDOT’s Cultural Resources Section works to identify, protect, and preserve historic SITES from archaeological locations to Tribal cultural landscapes to ensure we honor the PAST as projects move forward. Learn how they balance highway improvements with heritage stewardship at the link.",
+        "link": "https://www.dot.nm.gov/infrastructure/environment/cultural-resources-section/",
+        "target_guess": "7"
     },
      "2025-08-01": {
         "start_word": "stag",
@@ -190,6 +190,53 @@
         "message": "NMDOT is studying options to improve the I‑25 Raton–Clayton interchange, where unclear ramps and poor sightlines have caused driver confusion and dangerous SPIN-outs. Public feedback is helping shape the future design. Learn more at the link.",
         "link": "https://bhi.mysocialpinpoint.com/raton-clayton-interchange",  
         "target_guess": "5"
+    },
+    "2025-08-05":{
+        "start_word":"",
+        "end_word":"",
+        "clue":"",
+        "message":"",
+        "link":"",
+        "target_guess":""
+    },
+    "2025-08-06": {
+      "start_word": "gear",
+      "end_word": "seek",
+      "clue": "peak",
+      "message": "Through NMDOT’s Tribal Consultation Portal, Tribal Nations can SEEK out planned projects statewide and see details via maps, surveys, and dashboards—empowering meaningful engagement. Learn more and provide input at the link.",
+      "link": "https://tribal-consultation-portal-nmdot.hub.arcgis.com/",
+      "target_guess": "5"
+    },
+    "2025-08-07": {
+        "start_word": "luck",
+        "end_word": "land",
+        "clue": "bank",
+        "message": "The City of Santa Fe replaced outdated quartz lights on Runway 2–20 with modern LED MIRL at Santa Fe Regional Airport, helping planes LAND safely even in fog. Learn about the design and fiber‑optic lighting controls at the link.",
+        "link": "https://www.molzencorbin.com/portfolio/santa-fe-municipal-airport-runway-2-20-mirl-replacement/",
+        "target_guess": "5"
+    },
+    "2025-08-08": {
+        "start_word": "flow",
+        "end_word": "draw",
+        "clue": "brew",
+        "message": "Local artist Roberto Lara painted “La Puesta del Sol” at Albuquerque’s Rail Yards, helping DRAW public attention to vibrant cultural storytelling along the Rail Trail. The new mural marks the beginning of an art corridor celebrating community identity—learn more at the link.",
+        "link": "https://www.cabq.gov/artsculture/news/new-community-mural-kicks-off-public-art-along-the-rail-trail",
+        "target_guess": "5"
+    },
+    "2025-08-09": {
+        "start_word": "hour",
+        "end_word": "plug",
+        "clue": "slap",
+        "message": "Las Cruces Public Schools installed 5 DC fast chargers and 7 Level II ports to PLUG in electric school bus fleets due to V2G pilot in New Mexico. These chargers are also available to the public during non-school hours. Learn more at the link.",
+        "link": "https://nuvve.com/nuvve-launches-first-v2g-capable-electric-school-bus-deployment-in-new-mexico/",
+        "target_guess": "8"
+    },
+    "2025-08-10": {
+        "start_word": "kits",
+        "end_word": "gear",
+        "clue": "pets",
+        "message": "NMDOT offers free winter-driving guidance, including ice and snow survival kits, chain installation tips, and how to access real-time road condition tools so drivers can get fully ready for winter. Learn all about preparing and staying safe during icy New Mexico weather at the link.",
+        "link": "https://www.dot.nm.gov/winter-driving/",
+        "target_guess": "7"
     }
-    
 }
