@@ -238,10 +238,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 4rem 0 2rem;
+  margin: 0 2rem;
 }
-
+.right-title{
+  min-width: 15rem;
+  width: 40%;
+}
 .guess-count-container {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,10 +254,17 @@ a:hover {
   width: 17.5rem;
   letter-spacing: 0.1rem;
 }
-.target-guess-container,
+
 .inner-guess-count-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  padding-right:2rem;
+}
+.target-guess-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -453,6 +464,9 @@ a:hover {
     margin: 1rem auto;
     width: 80%;
   }
+  .guess-count-container{
+    flex-grow: 0;
+  }
   .toolbar-buttons-container {
     width: 100%;
     gap: 1rem;
@@ -471,6 +485,10 @@ a:hover {
     align-items: center;
     margin:0;
   }
+.right-title{
+  min-width: 0;
+  width: auto;
+}
   .guess-container{
     justify-content: flex-end;
   }
@@ -550,7 +568,10 @@ a:hover {
   .game-date {
     font-size: 1.4rem;
   }
-
+  
+  .guess-count-container{
+    flex-grow: 0;
+  }
   #input-bar {
     font-size: 2rem;
     padding: 0.4rem;
