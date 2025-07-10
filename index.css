@@ -237,8 +237,8 @@ a:hover {
 .right-container-title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 2rem;
+  justify-content: space-evenly;
+  margin: 0 4rem 0 2rem;
 }
 
 .guess-count-container {
