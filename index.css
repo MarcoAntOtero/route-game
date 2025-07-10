@@ -241,8 +241,7 @@ a:hover {
   margin: 0 2rem;
 }
 .right-title{
-  min-width: 15rem;
-  width: 40%;
+  min-width: 10rem;
 }
 .guess-count-container {
   flex-grow: 1;
@@ -259,7 +258,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right:2rem;
+  gap:1rem;
 }
 .target-guess-container{
   display: flex;
@@ -457,12 +456,12 @@ a:hover {
   }
   .right-container{
     margin: 4rem auto;
-    width: 100%;
+    width: 80%;
     max-width: none;
   }
   .word-container{
     margin: 1rem auto;
-    width: 80%;
+    width: 100%;
   }
   .guess-count-container{
     flex-grow: 0;
@@ -479,7 +478,7 @@ a:hover {
   .toolbar-buttons {
     width: auto;
   }
-
+  /*
   .right-container-title {
     justify-content: space-evenly;
     align-items: center;
@@ -507,7 +506,23 @@ a:hover {
     text-transform: uppercase;
     border-radius: 0.5rem;
   }
+  */
+  .guess-word{
+    margin: 0 0% 0 30%;
+    padding: 0rem 1% 0rem 1%;
+    flex-grow: 0;
+    justify-content: center;
 
+  }
+  .guess-word span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.8em;
+    height: 1.8em;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+  }
   .keyboard {
     gap: 6px;
   }
@@ -555,6 +570,12 @@ a:hover {
     width:50%;
 
     margin:0 auto;
+  }
+}
+@media (max-width: 560px){
+  .guess-word{
+    margin: 0 0 0 35%;
+    padding: 0rem 0% 0rem 0%;
   }
 }
 @media (max-width: 450px) {
