@@ -231,12 +231,36 @@
         "link": "https://www.dot.nm.gov/winter-driving/",
         "target_guess": "7"
     },
-    "2025-08-11":{
-        "start_word":"",
-        "end_word":"",
-        "clue":"",
-        "message":"",
-        "link":"",
-        "target_guess":""
+    "2025-08-11": {
+        "start_word": "pain",
+        "end_word": "grab",
+        "clue": "grin",
+        "message": "Join over a thousand volunteers who GRAB trash bags and keep highways clean through NMDOT’s Adopt‑A‑Highway—groups earn roadside recognition signs with their names once they complete at least two annual pickups. Learn how to get involved and make a visible impact at the link.",
+        "link": "https://www.dot.nm.gov/adopt-a-highway/",
+        "target_guess": "4"
+    },
+    "2025-08-12": {
+        "start_word": "boat",
+        "end_word": "farm",
+        "clue": "foot",
+        "message": "Every Saturday from April to November, Albuquerque’s Downtown Growers’ Market lets families GROW relationships with local farmers, artisans, food trucks, and live music. Visit the historic Robinson Park market to enjoy fresh produce and community vibes—details and hours at the link.",
+        "link": "https://www.downtowngrowers.org/",
+        "target_guess": "5"
+    },
+    "2025-08-13": {
+        "start_word": "dorm",
+        "end_word": "yard",
+        "clue": "farm",
+        "message": "Every Sunday (May–Oct), Albuquerque’s Rail YARDs market brings together over 200 local farmers, makers, and live musicians—turning an old railyard into a hub of food, art, & community. It’s a family-friendly event with produce, demos, music, and art every week—see details and vendors at the link.",
+        "link": "https://railyardsmarket.org/",
+        "target_guess": "6"
+    },
+    "2025-08-14": {
+        "start_word": "sale",
+        "end_word": "live",
+        "clue": "lane",
+        "message": "Every Saturday year‑round (8 AM–1 PM), the Santa Fe Farmers’ Market at the Railyard brings together local growers offering fresh produce, prepared foods, artisan goods, and LIVE music. A  celebration of community and farm‑to‑table fresh. Check vendors and weekly events via the link.",
+        "link": "https://santafefarmersmarket.com/farmers-markets/saturday-market/",
+        "target_guess": "4"
     }
 }
