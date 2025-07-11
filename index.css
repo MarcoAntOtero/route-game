@@ -478,35 +478,6 @@ a:hover {
   .toolbar-buttons {
     width: auto;
   }
-  /*
-  .right-container-title {
-    justify-content: space-evenly;
-    align-items: center;
-    margin:0;
-  }
-.right-title{
-  min-width: 0;
-  width: auto;
-}
-  .guess-container{
-    justify-content: flex-end;
-  }
-
-  .guess-word {
-    width:55%;
-    justify-content: flex-end;
-  }
-
-  .guess-word span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2em;
-    height: 2em;
-    text-transform: uppercase;
-    border-radius: 0.5rem;
-  }
-  */
   .guess-word{
     margin: 0 0% 0 30%;
     padding: 0rem 1% 0rem 1%;
@@ -578,7 +549,7 @@ a:hover {
     padding: 0rem 0% 0rem 0%;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 530px) {
   .header-top{
     padding-top:0.5rem;
   }
@@ -612,9 +583,16 @@ a:hover {
   .right-container-title {
     gap: 0.8rem;
   }
+  .right-title{
+    font-size: 2rem;
+  }
+  .target-guess-container,
+  .inner-guess-count-container{
+    font-size: 1.4rem;
+  }
   .start-word-beginning,
   .end-word-ending { 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .start-word,
@@ -624,7 +602,8 @@ a:hover {
   }
   .guess-word {
     font-size: 1.6rem;
-    width:50%;
+    margin: 0 0 0 35%;
+    padding: 0rem 0% 0rem 4%;
   }
 
   .keyboard {
