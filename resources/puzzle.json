@@ -1,12 +1,4 @@
 {
-    "2025-07-10": {
-        "start_word": "rook",
-        "end_word": "dust",
-        "clue": "ruck",
-        "message": "NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
-        "link": "https://dustmitigation.nmdotprojects.org/",
-        "target_guess": "5"
-    },
     "2025-07-13": {
         "start_word": "pity",
         "end_word": "life",
@@ -191,13 +183,13 @@
         "link": "https://bhi.mysocialpinpoint.com/raton-clayton-interchange",  
         "target_guess": "5"
     },
-    "2025-08-05":{
-        "start_word":"",
-        "end_word":"",
-        "clue":"",
-        "message":"",
-        "link":"",
-        "target_guess":""
+    "2025-08-05": {
+        "start_word": "rook",
+        "end_word": "dust",
+        "clue": "ruck",
+        "message": "NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
+        "link": "https://dustmitigation.nmdotprojects.org/",
+        "target_guess": "5"
     },
     "2025-08-06": {
       "start_word": "gear",
@@ -238,5 +230,13 @@
         "message": "NMDOT offers free winter-driving guidance, including ice and snow survival kits, chain installation tips, and how to access real-time road condition tools so drivers can get fully ready for winter. Learn all about preparing and staying safe during icy New Mexico weather at the link.",
         "link": "https://www.dot.nm.gov/winter-driving/",
         "target_guess": "7"
+    },
+    "2025-08-11":{
+        "start_word":"",
+        "end_word":"",
+        "clue":"",
+        "message":"",
+        "link":"",
+        "target_guess":""
     }
 }
