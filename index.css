@@ -431,7 +431,7 @@ a:hover {
 /* =========================
    Responsive Layout
 ========================= */
-@media (max-width: 875px) {
+@media (max-width: 950px) {
   /* Stack left and right containers vertically */
   .header-top{
     justify-content: flex-start;
