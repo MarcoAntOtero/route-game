@@ -1,12 +1,4 @@
 {
-    "2025-07-11": {
-        "start_word": "pity",
-        "end_word": "life",
-        "clue": "cite",
-        "message": "New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
-        "link": "https://wildlifeactionplan.nmdotprojects.org/",
-        "target_guess": "4"
-    },
     "2025-07-14": {
         "start_word": "rose",
         "end_word": "pave",
@@ -261,6 +253,30 @@
         "clue": "lane",
         "message": "Every Saturday year‑round (8 AM–1 PM), the Santa Fe Farmers’ Market at the Railyard brings together local growers offering fresh produce, prepared foods, artisan goods, and LIVE music. A  celebration of community and farm‑to‑table fresh. Check vendors and weekly events via the link.",
         "link": "https://santafefarmersmarket.com/farmers-markets/saturday-market/",
+        "target_guess": "4"
+    },
+    "2025-08-15": {
+        "start_word": "pity",
+        "end_word": "life",
+        "clue": "cite",
+        "message": "New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
+        "link": "https://wildlifeactionplan.nmdotprojects.org/",
+        "target_guess": "4"
+    },
+    "2025-08-16": {
+        "start_word": "live",
+        "end_word": "past",
+        "clue": "lift",
+        "message": "El Rancho de las Golondrinas is a 500‑acre living history ranch that preserves traditional trades and irrigation systems, letting visitors step back into New Mexico’s PAST. Open June to October with daily tours, wetland walks, festivals, and hands‑on heritage experiences—explore more at the link.",
+        "link": "https://golondrinas.org/",
+        "target_guess": "5"
+    },
+    "2025-08-20": {
+        "start_word": "week",
+        "end_word": "heat",
+        "clue": "wear",
+        "message": "Every Labor Day weekend, there is the annual Hatch Chile Festival, where hundreds of vendors offer roasted chiles, artisan goods, carnival rides, live music, and spicy EATING contests. Don’t miss the HEAT and get an event schedule and vendor info at the link.",
+        "link": "https://hatchchilefestival.org/",
         "target_guess": "4"
     }
 }
