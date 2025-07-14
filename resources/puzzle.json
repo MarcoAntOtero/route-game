@@ -19,7 +19,7 @@
         "start_word": "past",
         "end_word": "dock",
         "clue": "lack",
-        "message": "New Mexico is set to get around $38 million from the federal NEVI program (2022–2026) to build a fast-charging network along I‑25, I‑40, and I‑10 with charging DOCKS spaced about every 50 miles. Each charging spot must have at least four ultra-fast (150 kW) CCS chargers, open to all drivers, plus NMDOT will cover installation, upkeep, data monitoring, and planning efforts .",
+        "message": "New Mexico is set to get around $38 million from the federal NEVI program (2022–2026) to build a fast-charging network along I‑25, I‑40, and I‑10 with charging DOCKS spaced about every 50 miles. Click on the link for more info.",
         "link": "https://www.dot.nm.gov/electrifying-new-mexico/?ev=nevi",
         "target_guess": "5"
     },
@@ -256,12 +256,12 @@
         "target_guess": "4"
     },
     "2025-08-15": {
-        "start_word": "pity",
-        "end_word": "life",
-        "clue": "cite",
-        "message": "New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
-        "link": "https://wildlifeactionplan.nmdotprojects.org/",
-        "target_guess": "4"
+        "start_word": "mark",
+        "end_word": "week",
+        "clue": "aroma",
+        "message": "The 103rd Santa Fe Indian MARKet returns to the Plaza to bring together over 1,000 Native artists from 200+ Tribal Nations in a WEEKend-long celebration of Indigenous art and culture. Admission is free, with live performances, food vendors, and a showcase of fine art—learn more about the market at the link.",
+        "link": "https://www.swaia.org/santa-fe-indian-market",
+        "target_guess": "6"
     },
     "2025-08-16": {
         "start_word": "live",
@@ -271,12 +271,60 @@
         "link": "https://golondrinas.org/",
         "target_guess": "5"
     },
+    "2025-08-17": {
+        "start_word": "last",
+        "end_word": "song",
+        "clue": "lose",
+        "message": "Each summer, the Santa Fe Opera brings world-class productions beginning in late June through August, into a stunning amphitheater where soaring SONG meets the Sangre de Cristo backdrop. Find schedules, tickets, and shuttle details at the link.",
+        "link": "https://www.santafeopera.org/",
+        "target_guess": "5"
+    },
+    "2025-08-18": {
+        "start_word": "park",
+        "end_word": "sand",
+        "clue": "bank",
+        "message": "White SANDs National PARK is open daily year-round, with visitor center hours typically from 8 AM to sunset. Check current TIMEs and closures before you go via the link.",
+        "link": "https://www.nps.gov/whsa/planyourvisit/hours.htm",
+        "target_guess": "4"
+    },
+    "2025-08-19": {
+        "start_word": "pity",
+        "end_word": "life",
+        "clue": "cite",
+        "message": "New Mexico is addressing WildLIFE-vehicle collisions through the Wildlife Corridors Action Plan, finalized in 2022. The plan identifies priority sites for wildlife crossings, including overpasses, underpasses, and fencing, to enhance safety for both wildlife and drivers. Learn more at the link.",
+        "link": "https://wildlifeactionplan.nmdotprojects.org/",
+        "target_guess": "4"
+    },
     "2025-08-20": {
+        "start_word": "duck",
+        "end_word": "race",
+        "clue": "back",
+        "message": "Join the fun at the 46th Great American FUCK RACE in Deming, NM, August 21–24, 2025, where rubber ducks sprint down the chute, carnival rides spin, and hot-air balloons lift the weekend vibe. Don’t miss the Duck Royalty parade, tortilla toss, live music, and festival food & family entertainment. Learn more at the link.",
+        "link": "https://demingduckrace.com/",
+        "target_guess": "4"
+    },
+    "2025-08-21": {
+        "start_word": "time",
+        "end_word": "land",
+        "clue": "lame",
+        "message": "Taos Pueblo is one of the oldest continuously inhabited communities in North America, offering a living glimpse into traditional adobe architecture and Pueblo culture. It’s a designated UNESCO World Heritage Site and National Historic Landmark. Learn more about the history at the link.",
+        "link": "https://taospueblo.com/",
+        "target_guess": "4"
+    },
+    "2025-08-22": {
         "start_word": "week",
         "end_word": "heat",
         "clue": "wear",
         "message": "Every Labor Day weekend, there is the annual Hatch Chile Festival, where hundreds of vendors offer roasted chiles, artisan goods, carnival rides, live music, and spicy EATING contests. Don’t miss the HEAT and get an event schedule and vendor info at the link.",
         "link": "https://hatchchilefestival.org/",
         "target_guess": "4"
+    },
+    "2025-08-23": {
+        "start_word": "fish",
+        "end_word": "camp",
+        "clue": "cash",
+        "message": "Elephant Butte Lake State Park is perfect for CAMPing, boating, FISHing, and beach‑side relaxation along a 200‑mile lake shoreline. Check park amenities and fees at the link.",
+        "link": "https://www.emnrd.nm.gov/spd/find-a-park/elephant-butte-lake-state-park/",
+        "target_guess": "6"
     }
 }
