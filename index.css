@@ -11,21 +11,26 @@ html {
   font-size: 62.5%; /* 1rem = 10px */ /* :contentReference[oaicite:7]{index=7} */
 }
 
-body {
+h1{
+  padding: 0;
+}
+h2{
+  font-weight:bold;
+}
+.main-container {
+  color:#222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   font-family: Montserrat, sans-serif;
   font-size: 1.6rem; /* 16px base */
   line-height: 1.5;
   height: 100%;
 }
-body.dark-mode{
-  background-color: #222;
+.main-container.dark-mode{
   color: white;
-}
-.main-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background-color: #222;
 }
 a:link {
   color: lightblue; /* Unvisited link */
@@ -45,11 +50,13 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 3rem;
   gap: 2rem;
 }
 
 .puzzle-title {
+  font-weight:bold;
+  padding:0px;
   font-size: 4.2rem;
 }
 
@@ -193,7 +200,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease, transform 0.05s ease;;
+  transition: background-color 0.3s ease, transform 0.05s ease;
 }
 .key.dark-mode,
 .enter-key.dark-mode,
@@ -238,9 +245,10 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 2rem;
+  margin: 1rem 2rem;
 }
 .right-title{
+  font-weight: bold;
   min-width: 10rem;
 }
 .guess-count-container {
@@ -252,6 +260,7 @@ a:hover {
   height:auto;
   width: 17.5rem;
   letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 .inner-guess-count-container{
@@ -364,7 +373,7 @@ a:hover {
 
 .modal {
   background-color: white;
-  padding: 0.5rem 2rem;
+  padding: 2rem 2rem;
   border-radius: 0.8rem;
   max-width: 60rem;
   width: 70%;
@@ -377,7 +386,9 @@ a:hover {
   color: white;
   box-shadow: 0 0 1rem 0.3rem rgba(255,255,255,0.8);
 }
-
+.hint-message{
+  padding:0.2rem;
+}
 .modal-close {
   position: absolute;
   top: 0.5rem;
@@ -388,7 +399,34 @@ a:hover {
   cursor: pointer;
   z-index: 5;
 }
+/* Modal list styling */
+.puzzle-modal-content ol {
+  margin-left: 2rem !important; /* Indent the entire list */
+  padding-left: 1rem !important;
+}
 
+.puzzle-modal-content li {
+  margin-bottom: 0.8rem !important; /* Space between items */
+  list-style-position: outside !important; /* Proper bullet position */
+  padding-left: 0.5rem !important;
+}
+
+/* Fix for Divi's default list styling */
+.puzzle-modal-content ol,
+.puzzle-modal-content ul {
+  list-style-type: none !important;
+}
+
+.puzzle-modal-content ol {
+  counter-reset: li-counter !important;
+}
+
+.puzzle-modal-content li:before {
+  content: counter(li-counter) "." !important;
+  counter-increment: li-counter !important;
+  color: #f26522 !important;
+  margin-right: 0.8rem !important;
+}
 
 /* =========================
    Messages

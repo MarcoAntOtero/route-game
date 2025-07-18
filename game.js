@@ -1,4 +1,4 @@
-// ==== STATE ====
+// ==== STATE ==== 
 // Assign Beginning Variables
 const GameState = {
   currentWord: "",         // Tracks the player's current word
@@ -12,7 +12,7 @@ const GameState = {
 
 // ==== DOM ELEMENTS ====
 // Cache necessary DOM elements for faster lookup
-const body = document.body;
+const body = document.getElementById("main-container");
 const inputBar = document.getElementById("input-bar");
 const guessContainer = document.getElementById("guess-container");
 const startWordEl = document.getElementById("start-word-beginning").nextElementSibling;
@@ -73,14 +73,14 @@ async function init() {
 // ==== LOADERS ====
 // Load dictionary.json (External Files)
 async function loadDictionary() {
-  const response = await fetch("resources/newDictionary.json");
+  const response = await fetch("resources/newDictionary.json");//resources/newDictionary.json
   if (!response.ok) throw new Error("Failed to load dictionary.");
   return await response.json();
 }
 
 // Load puzzle.json and find today's puzzle
 async function loadPuzzle(date) {
-  const response = await fetch("resources/puzzle.json");
+  const response = await fetch("resources/puzzle.json");//resources/puzzle.json
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
@@ -191,7 +191,7 @@ function setupEventListeners() {
   hintBut.addEventListener("click", () => {
     showModal(`
       <h2>Hint</h2>
-<p>From <strong>${GameState.currentWord}</strong>, try to get to <strong>${GameState.hint}</strong>.</p>
+<p class="hint-message">From <strong>${GameState.currentWord}</strong>, try to get to <strong>${GameState.hint}</strong>.</p>
     `);
   });
 }
