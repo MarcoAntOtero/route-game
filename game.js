@@ -14,7 +14,7 @@ const GameState = {
 // Cache necessary DOM elements for faster lookup
 const body = document.getElementById("main-container");
 const titleh1 = document.getElementById('puzzle-title');
-const titleh2 = document.querySelectorAll('h2');
+const titleh2 = document.getElementById('right-title');
 const inputBar = document.getElementById("input-bar");
 const guessContainer = document.getElementById("guess-container");
 const startWordEl = document.getElementById("start-word-beginning").nextElementSibling;
@@ -82,7 +82,7 @@ async function loadDictionary() {
 
 // Load puzzle.json and find today's puzzle
 async function loadPuzzle(date) {
-  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/puzzle.json");//resources/puzzle.json
+  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/puzzle_updated_july.json");//resources/puzzle.json
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
@@ -164,9 +164,7 @@ function setupEventListeners() {
     enterKey.classList.toggle("dark-mode");
     deleteKey.classList.toggle("dark-mode");
     titleh1.classList.toggle("dark-mode");
-    titleh2.forEach(element =>{
-      element.style.color = 'white';
-    });
+    titleh2.classList.toggle("dark-mode");
   });
 
   // Modal events
