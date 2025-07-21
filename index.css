@@ -58,8 +58,11 @@ a:hover {
   font-weight:bold;
   padding:0px;
   font-size: 4.2rem;
+  color: #222;
 }
-
+.puzzle-title.dark-mode{
+  color:white;
+}
 .game-date {
   font-size: 2.8rem;
   font-weight: 300;
@@ -250,6 +253,10 @@ a:hover {
 .right-title{
   font-weight: bold;
   min-width: 10rem;
+  color: #222;
+}
+.right-title.dark-mode{
+  color: white;
 }
 .guess-count-container {
   flex-grow: 1;

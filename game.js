@@ -13,6 +13,8 @@ const GameState = {
 // ==== DOM ELEMENTS ====
 // Cache necessary DOM elements for faster lookup
 const body = document.getElementById("main-container");
+const titleh1 = document.getElementById('puzzle-title');
+const titleh2 = document.getElementById('right-title');
 const inputBar = document.getElementById("input-bar");
 const guessContainer = document.getElementById("guess-container");
 const startWordEl = document.getElementById("start-word-beginning").nextElementSibling;
@@ -161,6 +163,8 @@ function setupEventListeners() {
     });
     enterKey.classList.toggle("dark-mode");
     deleteKey.classList.toggle("dark-mode");
+    titleh1.classList.toggle("dark-mode");
+    titleh2.classList.toggle("dark-mode");
   });
 
   // Modal events
