@@ -75,14 +75,14 @@ async function init() {
 // ==== LOADERS ====
 // Load dictionary.json (External Files)
 async function loadDictionary() {
-  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/newDictionary.json");//resources/newDictionary.json
+  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/dictionary.json");//resources/newDictionary.json
   if (!response.ok) throw new Error("Failed to load dictionary.");
   return await response.json();
 }
 
 // Load puzzle.json and find today's puzzle
 async function loadPuzzle(date) {
-  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/puzzle_updated_july.json");//resources/puzzle.json
+  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/puzzle_07_2025.json");//resources/puzzle.json
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
