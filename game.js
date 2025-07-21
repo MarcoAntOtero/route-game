@@ -14,7 +14,7 @@ const GameState = {
 // Cache necessary DOM elements for faster lookup
 const body = document.getElementById("main-container");
 const titleh1 = document.getElementById('puzzle-title');
-const titleh2 = document.getElementById('right-title');
+const titleh2 = document.querySelectorAll('h2');
 const inputBar = document.getElementById("input-bar");
 const guessContainer = document.getElementById("guess-container");
 const startWordEl = document.getElementById("start-word-beginning").nextElementSibling;
@@ -164,7 +164,9 @@ function setupEventListeners() {
     enterKey.classList.toggle("dark-mode");
     deleteKey.classList.toggle("dark-mode");
     titleh1.classList.toggle("dark-mode");
-    titleh2.classList.toggle("dark-mode");
+    titleh2.forEach(element =>{
+      element.style.color = 'white';
+    });
   });
 
   // Modal events
@@ -178,24 +180,28 @@ function setupEventListeners() {
   // Show "How to Play"
   howToBut.addEventListener("click", () => {
     showModal(`
-      <h2>How to Play</h2>
-      <ol>
-        <li>Guess a <strong>4-letter word</strong> by typing or clicking letters.</li>
-        <li>Change exactly <strong>one</strong> letter at each guess.
-        Each transformation must result in a <strong>valid</strong> word.</li>
-        <li>Press <strong>Enter</strong> to submit your guess.</li>
-        <li><span class="green">Green</span> means the letter is in the correct spot</li>
-        <li><span class="yellow">Yellow</span> means the letter is correct but not in right spot</li>
-        <li>Your target guess is <strong>${GameState.targetGuess}</strong> to get to the end word correctly.</li>
-        <li>Good luck!! :)</li>
-      </ol>
+      <div class ="puzzle-modal-content">
+        <h2 class ="puzzle-modal-title">How to Play</h2>
+        <ol class ="puzzle-modal-content">
+          <li>Guess a <strong>4-letter word</strong> by typing or clicking letters.</li>
+          <li>Change exactly <strong>one</strong> letter at each guess.
+          Each transformation must result in a <strong>valid</strong> word.</li>
+          <li>Press <strong>Enter</strong> to submit your guess.</li>
+          <li><span class="green">Green</span> means the letter is in the correct spot</li>
+          <li><span class="yellow">Yellow</span> means the letter is correct but not in right spot</li>
+          <li>Your target guess is <strong>${GameState.targetGuess}</strong> to get to the end word correctly.</li>
+          <li>Good luck!! :)</li>
+        </ol>
+      </div>
     `);
   });
 
   hintBut.addEventListener("click", () => {
     showModal(`
-      <h2>Hint</h2>
-<p class="hint-message">From <strong>${GameState.currentWord}</strong>, try to get to <strong>${GameState.hint}</strong>.</p>
+      <div class ="puzzle-modal-content">
+        <h2 class="puzzle-modal-title">Hint</h2>
+        <p class="hint-message">From <strong>${GameState.currentWord}</strong>, try to get to <strong>${GameState.hint}</strong>.</p>
+      </div>
     `);
   });
 }
@@ -381,6 +387,5 @@ function hideModal() {
 
 // Alert modal with simple message
 function alertMessage(msg) {
-  showModal(`<p>${msg}</p>`);
+  showModal(`<p class="puzzle-error-message">${msg}</p>`);
 }
-// rail buss safe sign gate crew snow wild mile

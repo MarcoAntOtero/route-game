@@ -393,6 +393,12 @@ a:hover {
   color: white;
   box-shadow: 0 0 1rem 0.3rem rgba(255,255,255,0.8);
 }
+.modal.dark-mode .puzzle-modal-title{
+  color: white !important;
+}
+.puzzle-modal-title{
+  color: #222;
+}
 .hint-message{
   padding:0.2rem;
 }
@@ -431,10 +437,13 @@ a:hover {
 .puzzle-modal-content li:before {
   content: counter(li-counter) "." !important;
   counter-increment: li-counter !important;
-  color: #f26522 !important;
   margin-right: 0.8rem !important;
 }
-
+.modal .puzzle-error-message,
+.modal .puzzle-error-message:last-of-type{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
 /* =========================
    Messages
 ========================= */
