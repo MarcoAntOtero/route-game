@@ -303,14 +303,6 @@
         "link": "https://www.dot.nm.gov/projects/active-projects/us550wildlifeproject/",
         "target_guess": "5"
     },
-    "2025-07-21": {
-        "start_word": "wilt",
-        "end_word": "rail",
-        "clue": "wall",
-        "message": "Check out this page to explore upcoming special events you can take the RAIL Runner to, like live Shakespeare performances on the train or free youth/senior rides: Ride the Rail Runner to special events! Learn more and view the full list at the link:",
-        "link": "https://www.riometro.org/185/Special-Events",
-        "target_guess": "5"
-    },
     "2025-09-01": {
         "start_word": "cart",
         "end_word": "ride",
@@ -366,5 +358,13 @@
         "message": "BANDelier National Monument preserves ancient cliff dwellings and a circular kiva ceremonial room, accessible via ladders and trails through Frijoles Canyon. Explore petroglyphs, canyon HIKEs, backcountry camping, and Pueblo‑era history in a 33,000‑acre volcanic landscape—plan your visit at the link.",
         "link": "https://www.nps.gov/band/index.htm",
         "target_guess": "6"
+    },
+    "2025-09-08": {
+        "start_word": "wilt",
+        "end_word": "rail",
+        "clue": "wall",
+        "message": "Check out this page to explore upcoming special events you can take the RAIL Runner to, like live Shakespeare performances on the train or free youth/senior rides: Ride the Rail Runner to special events! Learn more and view the full list at the link:",
+        "link": "https://www.riometro.org/185/Special-Events",
+        "target_guess": "5"
     }
 }
