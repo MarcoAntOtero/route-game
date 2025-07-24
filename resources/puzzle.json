@@ -326,5 +326,45 @@
         "message": "NMDOT’s design‑build overhaul from Comanche to Montgomery is straightening out the sketchy “S‑Curve” on I‑25 by adding a southbound lane, rebuilt interchanges, barrier‑separated bike/pedestrian paths, and U‑turns to make it SAFE for drivers, walkers, and bikers. To learn more click the link.",
         "link": "https://www.i25scurve.com/",
         "target_guess": "5"
+    },
+    "2025-09-03": {
+        "start_word": "plan",
+        "end_word": "grow",
+        "clue": "plow",
+        "message": "NMDOT’s integrated Vegetation Management program works to control WEEDs, preserve native habitat, maintain visibility, reduce fire hazard, and encourage desirable roadside PLANT growth along over 25,000 miles of state highways. Learn about ecological stewardship and noxious weed tracking at the link.",
+        "link": "https://www.dot.nm.gov/highway-operations-program/operations-support-division-director/state-maintenance-bureau/vegetation-management/",
+        "target_guess": "5"
+    },
+    "2025-09-04": {
+        "start_word": "hike",
+        "end_word": "park",
+        "clue": "bare",
+        "message": "City of Rocks State PARK in Grant County features dramatic volcanic rock formations rising up to 40 ft—perfect for hiking, CAMPing, star-gazing, and rock climbing under pristine dark skies. Explore its trails, telescope-equipped observatory, and youth‑painted murals at the visitor center—get details and hours at the link.",
+        "link": "https://www.emnrd.nm.gov/spd/find-a-park/city-of-rocks-state-park/",
+        "target_guess": "5"
+    },
+    "2025-09-05": {
+        "start_word": "pool",
+        "end_word": "heal",
+        "clue": "tell",
+        "message": "At Ojo Santa Fe Spa Resort, guests can soak in spring communal POOLs, book private Ojitos tubs, enjoy yoga, massage, and dining, which are designed to HEAL mind, body, and soul amid Northern New Mexico’s desert tranquility. Explore spa rituals, pool hours, lodging options, and more at the link.",
+        "link": "https://ojosparesorts.com/ojo-santa-fe/",
+        "target_guess": "5"
+    },
+    "2025-09-06": {
+        "start_word": "bird",
+        "end_word": "hope",
+        "clue": "bore",
+        "message": "Each November to February, tens of thousands of sandhill cranes and snow geese converge on Bosque del Apache NWR—a winter sanctuary and the centerpiece of the annual Festival of the Cranes. Join morning and evening wildlife drives for unforgettable BIRD watching and photo ops—get refuge hours and event details at the link.",
+        "link": "https://www.fws.gov/refuge/bosque-del-apache",
+        "target_guess": "6"
+    },
+    "2025-09-07": {
+        "start_word": "hike",
+        "end_word": "band",
+        "clue": "mind",
+        "message": "BANDelier National Monument preserves ancient cliff dwellings and a circular kiva ceremonial room, accessible via ladders and trails through Frijoles Canyon. Explore petroglyphs, canyon HIKEs, backcountry camping, and Pueblo‑era history in a 33,000‑acre volcanic landscape—plan your visit at the link.",
+        "link": "https://www.nps.gov/band/index.htm",
+        "target_guess": "6"
     }
 }
