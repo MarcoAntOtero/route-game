@@ -366,5 +366,37 @@
         "message": "NMDOT’s Cultural Resources Section works to identify, protect, and preserve historic SITES from archaeological locations to Tribal cultural landscapes to ensure we honor the PAST as projects move forward. Learn how they balance highway improvements with heritage stewardship at the link.",
         "link": "https://www.dot.nm.gov/infrastructure/environment/cultural-resources-section/",
         "target_guess": "7"
+    },
+    "2025-09-17": {
+        "start_word": "ball",
+        "end_word": "till",
+        "clue": "time",
+        "message": "Every October, Albuquerque hosts the Ascension of over 500 hot-air BALLoons, followed by nightTIME balloon events that light up the desert sky in a spectacular display of color and community. It’s one of the most photographed events anywhere—view event schedules, ticket info, and special shape highlights at the link.",
+        "link": "https://www.balloonfiesta.com/",
+        "target_guess": "4"
+    },
+    "2025-09-18": {
+       "start_word": "room",
+       "end_word": "cave",
+       "clue": "dove",
+       "message": "Carlsbad Caverns National Park features the iconic BIG Room—North America’s largest easily accessed cave chamber—where visitors can hike or take an elevator deep into the CAVE under the Chihuahuan Desert. Learn about geology, bats, and park history at the link.",
+       "link": "https://www.nps.gov/cave/index.htm",
+       "target_guess": "4"
+    },
+    "2025-09-19": {
+       "start_word": "town",
+       "end_word": "dust",
+       "clue": "burn",
+       "message": "New Mexico is home to over 400 ghost TOWNs, once booming mining or railroad hubs now shaped by DUST and echoes of history. Many, like Mogollon, Chloride, and Lake Valley, offer self‑guided tours of crumbling buildings and restored sites—immerse yourself in the past by visiting from the link.",
+       "link": "https://www.newmexico.org/places-to-visit/ghost-towns/",
+       "target_guess": "6"
+    },
+    "2025-09-20": {
+       "start_word": "wind",
+       "end_word": "mile",
+       "clue": "No hint :3",
+       "message": "Experience the turquoise Trail—a 62‑mile National Scenic Byway winding along NM 14 from Albuquerque through art‑filled ghost towns like Madrid and Golden up to Santa Fe. It’s free to drive, offers high‑desert vistas, historic mining sites, galleries, and mountain views. Download maps and plan your visit at the link.",
+       "link": "https://www.turquoisetrail.org/",
+       "target_guess": "3"
     }
 }
