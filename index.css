@@ -489,13 +489,13 @@ a:hover {
   /* Stack left and right containers vertically */
   .header-top{
     justify-content: flex-start;
-    align-items: center;
   }
   .puzzle-title{
     font-size: 3rem;
   }
   .game-date{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    margin-top: -0.3rem;
   }
   .content {
     flex-direction: column;
@@ -608,7 +608,8 @@ a:hover {
   }
   
   .game-date {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    margin-top: -0.5rem;
   }
   
   .guess-count-container{
@@ -617,11 +618,15 @@ a:hover {
   #input-bar {
     font-size: 2rem;
     padding: 0.4rem;
+    width: 85%;
+    margin-left:0.9rem;
   }
 
   #fake-placeholder {
     font-size: 2.1rem;
     letter-spacing: -0.15rem;
+    margin-left:0.9rem;
+    width: 82%;
   }
 
 
