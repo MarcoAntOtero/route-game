@@ -34,6 +34,7 @@ const closeBtn = document.getElementById("modal-close");
 const howToBut = document.getElementById("how-to-but");
 const hintBut = document.getElementById("hint-but");
 const toggleDark = document.getElementById("toggle-but");
+const modal_close = document.getElementById("modal-close");
 
 // Keyboard UI
 const enterKey = document.getElementById("enter-key");
@@ -75,14 +76,14 @@ async function init() {
 // ==== LOADERS ====
 // Load dictionary.json (External Files)
 async function loadDictionary() {
-  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/dictionary.json");//resources/newDictionary.json
+  const response = await fetch("resources/newDictionary.json");//resources/newDictionary.json
   if (!response.ok) throw new Error("Failed to load dictionary.");
   return await response.json();
 }
 
 // Load puzzle.json and find today's puzzle
 async function loadPuzzle(date) {
-  const response = await fetch("https://www.dot.nm.gov/wp-content/uploads/2025/07/puzzle_07_2025.json");//resources/puzzle.json
+  const response = await fetch("resources/puzzle.json");//resources/puzzle.json
   if (!response.ok) throw new Error("Failed to load puzzle file.");
   const data = await response.json();
   const puzzle = data[date];
@@ -158,6 +159,7 @@ function setupEventListeners() {
     body.classList.toggle("dark-mode");
     inputBar.classList.toggle("dark-mode");
     modal.classList.toggle("dark-mode");
+    modal_close.classList.toggle("dark-mode");
     keys.forEach((key) => {
       key.classList.toggle("dark-mode");
     });

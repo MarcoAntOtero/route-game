@@ -84,7 +84,7 @@ a:hover {
 .toolbar-buttons-container {
   display: flex;
   gap: 2rem;
-  width: 47%;
+  width: 47.5%;
 }
 
 .toolbar-buttons {
@@ -389,7 +389,7 @@ a:hover {
   z-index: 5;
 }
 .modal.dark-mode{
-  background-color: black;
+  background-color: #222;
   color: white;
   box-shadow: 0 0 1rem 0.3rem rgba(255,255,255,0.8);
 }
@@ -411,6 +411,10 @@ a:hover {
   font-size: 1.5em;
   cursor: pointer;
   z-index: 5;
+  color:black
+}
+.modal-close.dark-mode {
+  color: white;
 }
 /* Modal list styling */
 .puzzle-modal-content ol {

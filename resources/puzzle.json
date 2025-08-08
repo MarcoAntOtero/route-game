@@ -1,60 +1,4 @@
 { 
-     "2025-08-01": {
-        "start_word": "stag",
-        "end_word": "plan",
-        "clue": "slay",
-        "message": "The Trail of the Ancients Scenic Byway, running through the Four Corners region, is getting refreshed corridor management and interactive mapping to spotlight archaeological sites, cultural history, and geologic wonders—bringing the ancient landscape to modern travelers. It’s all about making the journey as meaningful as the destination. Learn more at the link.",
-        "link": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/",
-        "target_guess": "4"
-    },
-    "2025-08-02": {
-        "start_word": "horn",
-        "end_word": "mute",
-        "clue": "core",
-        "message": "NMDOT is establishing Quiet Zones along the Rail Runner route, allowing trains to pass crossings without sounding the HORN where safety upgrades are installed. Communities can apply to MUTE noise. Details at the link.",
-        "link": "https://www.riometro.org/354/Pedestrian-and-Driver-Safety",
-        "target_guess": "7"
-    },
-    "2025-08-03":{
-        "start_word": "feel",
-        "end_word": "glow",
-        "clue": "flew",
-        "message": "New street lighting is included as part of NMDOT’s major reconstruction along NM 31 and NM 128 near Jal, New Mexico. The upgrades aim to improve visibility, safety, and access for heavy truck traffic and residents, bringing a safer nighttime GLOW to this corridor. Learn more about the project at the link.",
-        "link": "https://nm31-128project.nmdotprojects.org/",
-        "target_guess": "5"
-    },
-    "2025-08-04": {
-        "start_word": "flap",
-        "end_word": "spin",
-        "clue": "ship",
-        "message": "NMDOT is studying options to improve the I‑25 Raton–Clayton interchange, where unclear ramps and poor sightlines have caused driver confusion and dangerous SPIN-outs. Public feedback is helping shape the future design. Learn more at the link.",
-        "link": "https://bhi.mysocialpinpoint.com/raton-clayton-interchange",  
-        "target_guess": "5"
-    },
-    "2025-08-05": {
-        "start_word": "rook",
-        "end_word": "dust",
-        "clue": "ruck",
-        "message": "NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
-        "link": "https://dustmitigation.nmdotprojects.org/",
-        "target_guess": "5"
-    },
-    "2025-08-06": {
-      "start_word": "gear",
-      "end_word": "seek",
-      "clue": "peak",
-      "message": "Through NMDOT’s Tribal Consultation Portal, Tribal Nations can SEEK out planned projects statewide and see details via maps, surveys, and dashboards—empowering meaningful engagement. Learn more and provide input at the link.",
-      "link": "https://tribal-consultation-portal-nmdot.hub.arcgis.com/",
-      "target_guess": "5"
-    },
-    "2025-08-07": {
-        "start_word": "luck",
-        "end_word": "land",
-        "clue": "bank",
-        "message": "The City of Santa Fe replaced outdated quartz lights on Runway 2–20 with modern LED MIRL at Santa Fe Regional Airport, helping planes LAND safely even in fog. Learn about the design and fiber‑optic lighting controls at the link.",
-        "link": "https://www.molzencorbin.com/portfolio/santa-fe-municipal-airport-runway-2-20-mirl-replacement/",
-        "target_guess": "5"
-    },
     "2025-08-08": {
         "start_word": "flow",
         "end_word": "draw",
@@ -398,5 +342,61 @@
        "message": "Experience the turquoise Trail—a 62‑mile National Scenic Byway winding along NM 14 from Albuquerque through art‑filled ghost towns like Madrid and Golden up to Santa Fe. It’s free to drive, offers high‑desert vistas, historic mining sites, galleries, and mountain views. Download maps and plan your visit at the link.",
        "link": "https://www.turquoisetrail.org/",
        "target_guess": "3"
+    },
+    "2025-09-21": {
+        "start_word": "stag",
+        "end_word": "plan",
+        "clue": "slay",
+        "message": "The Trail of the Ancients Scenic Byway, running through the Four Corners region, is getting refreshed corridor management and interactive mapping to spotlight archaeological sites, cultural history, and geologic wonders—bringing the ancient landscape to modern travelers. It’s all about making the journey as meaningful as the destination. Learn more at the link.",
+        "link": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/",
+        "target_guess": "4"
+    },
+    "2025-09-22": {
+        "start_word": "horn",
+        "end_word": "mute",
+        "clue": "core",
+        "message": "NMDOT is establishing Quiet Zones along the Rail Runner route, allowing trains to pass crossings without sounding the HORN where safety upgrades are installed. Communities can apply to MUTE noise. Details at the link.",
+        "link": "https://www.riometro.org/354/Pedestrian-and-Driver-Safety",
+        "target_guess": "7"
+    },
+    "2025-09-23":{
+        "start_word": "feel",
+        "end_word": "glow",
+        "clue": "flew",
+        "message": "New street lighting is included as part of NMDOT’s major reconstruction along NM 31 and NM 128 near Jal, New Mexico. The upgrades aim to improve visibility, safety, and access for heavy truck traffic and residents, bringing a safer nighttime GLOW to this corridor. Learn more about the project at the link.",
+        "link": "https://nm31-128project.nmdotprojects.org/",
+        "target_guess": "5"
+    },
+    "2025-09-24": {
+        "start_word": "flap",
+        "end_word": "spin",
+        "clue": "ship",
+        "message": "NMDOT is studying options to improve the I‑25 Raton–Clayton interchange, where unclear ramps and poor sightlines have caused driver confusion and dangerous SPIN-outs. Public feedback is helping shape the future design. Learn more at the link.",
+        "link": "https://bhi.mysocialpinpoint.com/raton-clayton-interchange",  
+        "target_guess": "5"
+    },
+    "2025-09-25": {
+        "start_word": "rook",
+        "end_word": "dust",
+        "clue": "ruck",
+        "message": "NMDOT’s comprehensive DUST mitigation strategy combines land restoration, technological detection, public alerts, and inter-agency enforcement. Through multi-phase habitat work, native seeding, monitoring systems, and strategic closures, they’ve significantly reduced dust events and improved safety along I‑10. Learn more about the project at the link",
+        "link": "https://dustmitigation.nmdotprojects.org/",
+        "target_guess": "5"
+    },
+    "2025-09-26": {
+      "start_word": "gear",
+      "end_word": "seek",
+      "clue": "peak",
+      "message": "Through NMDOT’s Tribal Consultation Portal, Tribal Nations can SEEK out planned projects statewide and see details via maps, surveys, and dashboards—empowering meaningful engagement. Learn more and provide input at the link.",
+      "link": "https://tribal-consultation-portal-nmdot.hub.arcgis.com/",
+      "target_guess": "5"
+    },
+    "2025-09-27": {
+        "start_word": "luck",
+        "end_word": "land",
+        "clue": "bank",
+        "message": "The City of Santa Fe replaced outdated quartz lights on Runway 2–20 with modern LED MIRL at Santa Fe Regional Airport, helping planes LAND safely even in fog. Learn about the design and fiber‑optic lighting controls at the link.",
+        "link": "https://www.molzencorbin.com/portfolio/santa-fe-municipal-airport-runway-2-20-mirl-replacement/",
+        "target_guess": "5"
     }
 }
