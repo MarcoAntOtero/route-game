@@ -4,8 +4,6 @@ It’s inspired by classic “Word Ladder” puzzles but offers a polished, resp
 
 ## Live Deployment
 Play it now: https://www.dot.nm.gov/route
-This game is hosted via GitHub Pages and embedded in the official New Mexico Department of Transportation website using an <iframe>.  
-The standalone version can also be opened directly from the GitHub Pages URL.
 
 ## Project Structure
 .  
